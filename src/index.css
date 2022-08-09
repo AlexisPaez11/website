@@ -109,7 +109,7 @@ img {
     object-fit: cover;
 }
 
-.scrollToTopButton {
+.scroll-to-top.scrollToTopButton {
     background-color: var(--color-primary);
     right: 2.8rem;
     bottom: 6.6rem;
