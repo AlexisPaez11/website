@@ -6,9 +6,10 @@ import Project from './Project'
 // import { IoIosArrowBack } from 'react-icons/io'
 // import { IoIosArrowForward } from 'react-icons/io'
 import { HiViewGridAdd } from 'react-icons/hi'
-import { SiHtml5, SiCss3, SiJavascript } from 'react-icons/si'
+import { SiHtml5, SiCss3, SiJavascript, SiReact } from 'react-icons/si'
 import YoutubeClone from '../../assets/projects-assets/youtube-clone.webp'
 import TwitterClone from '../../assets/projects-assets/twitter-clone.webp'
+import CarRental from '../../assets/projects-assets/car-rental.webp'
 
 const Projects = () => {
   return (
@@ -59,6 +60,14 @@ const ProjectData = [
     technologies: [<SiHtml5 />, <SiCss3 />],
     github: 'https://github.com/AlexisPaez11/Twitter',
     demo: 'https://alexispaez11.github.io/Twitter/',
+  },
+  {
+    id: 3,
+    image: CarRental,
+    title: 'Car Rental',
+    technologies: [<SiReact />, <SiCss3 />],
+    github: 'https://github.com/AlexisPaez11/Car-Rental',
+    demo: 'https://optimus-lb9vo90sk-alexispaez11.vercel.app/',
   },
 ]
 
