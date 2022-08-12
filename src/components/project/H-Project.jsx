@@ -67,7 +67,7 @@ const ProjectData = [
     title: 'Car Rental',
     technologies: [<SiReact />, <SiCss3 />],
     github: 'https://github.com/AlexisPaez11/Car-Rental',
-    demo: 'https://vercel.com/alexispaez11/optimus',
+    demo: 'https://optimus-alexispaez11.vercel.app/',
   },
 ]
 
