@@ -626,6 +626,7 @@ time {
     -o-transition: var(--transition);
 }
 .search-container .search {
+    font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
     width: 100%;
@@ -649,6 +650,9 @@ time {
     min-width: 26rem;
     max-width: 80rem;
     margin: 0 0 4rem;
+}
+.category-btn {
+    font-family: 'Inter', sans-serif;
 }
 .category-btn:hover {
     background-color: var(--color-component-variant1);
@@ -985,6 +989,7 @@ pre, code {
     align-content: flex-start;
 }
 .submit {
+    font-family: 'Inter', sans-serif;
     width: max-content;
     grid-area: submit;
 }
@@ -1242,6 +1247,10 @@ footer p {
     }
 }
 @media screen and (max-width: 365px) {
+    .cta {
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;
+    }
     .swiper-slide {
         width: 26rem;
         margin-left: 2rem;
