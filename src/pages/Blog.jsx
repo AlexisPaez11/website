@@ -14,15 +14,6 @@ const FilterButton = ( {name, handleSetCategory, categoryActive } ) => {
 const Blog = () => {
   // Search
   const [search, setSearch] = useState('')
-
-  // filteredArticle.filter((title) => {
-  //   if(search === ""){
-  //     return title;
-  //   }
-  //   else if(title.title.toLowerCase().includes(search.toLowerCase())){
-  //     return title;
-  //   }
-  // }).map
   // Search
   
   // Filter
@@ -48,17 +39,17 @@ const Blog = () => {
     
     <div className='blog-container'>
       {
-          filteredArticle.filter((title) => {
-            if(search === ""){
-              return title;
-            }
-            else if(title.title.toLowerCase().includes(search.toLowerCase())){
-              return title;
-            }
-          }).map(({id, categoryimg, category, image, title, datetime, time, url}) => {
-          return (
-            <Article key={id} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
-            )
+        filteredArticle.filter((title) => {
+          if(search === ""){
+            return title;
+          }
+          else if(title.title.toLowerCase().includes(search.toLowerCase())){
+            return title;
+          }
+        }).map(({id, categoryimg, category, image, title, datetime, time, url}) => {
+        return (
+          <Article key={id} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
+          )
         })
       }
     </div>
