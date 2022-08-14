@@ -13,6 +13,7 @@ import { IoIosArrowUp } from 'react-icons/io'
 
 import DevToolsChrome103 from './pages/articles/DevToolsChrome103'
 import EtiquetasHtmlEsenciales from './pages/articles/EtiquetasHtmlEsenciales'
+import MacBookAirM2review from './pages/articles/MacBookAirM2review'
 
 function App() {
   return (
@@ -29,8 +30,9 @@ function App() {
         <Route path='*' element={<Home />} />
         {/* <Route path='*' element={<404 />} /> */}
 
-        <Route path='/Blog/DevToolsChrome103' element={<DevToolsChrome103/>} />
-        <Route path='/Blog/EtiquetasHtmlEsenciales' element={<EtiquetasHtmlEsenciales/>} />
+        <Route path='/Blog/DevToolsChrome103' element={<DevToolsChrome103 />} />
+        <Route path='/Blog/EtiquetasHtmlEsenciales' element={<EtiquetasHtmlEsenciales />} />
+        <Route path='/Blog/MacBookAirM2review' element={<MacBookAirM2review />} />
       </Routes>
       
       <Footer />

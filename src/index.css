@@ -516,7 +516,7 @@ section.h-projects, section.h-articles {
 }
 .article-title {
     color: var(--color-text);
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
     height: 4.8rem;
     overflow: hidden;
@@ -524,7 +524,7 @@ section.h-projects, section.h-articles {
 }
 time {
     color: var(--color-text-variant);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 /* ____________ ARTICLE CARD _____________ */
@@ -611,9 +611,6 @@ time {
     grid-auto-flow: row;
     grid-template-columns: repeat(auto-fill, minmax(31.6rem, 1fr));
     gap: 1.6rem;
-}
-.blog-container {
-    grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
 }
 
 .search-container {
@@ -1249,7 +1246,7 @@ footer p {
         width: 26rem;
         margin-left: 2rem;
     }
-    .project-container {
+    .project-container, .blog-container {
         grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
     }
 }

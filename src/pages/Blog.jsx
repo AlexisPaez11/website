@@ -13,7 +13,7 @@ const FilterButton = ( {name, handleSetCategory, categoryActive } ) => {
 
 const Blog = () => {
   // Search
-  // const [search, setSearch] = useState('')
+  const [search, setSearch] = useState('')
 
   // filteredArticle.filter((title) => {
   //   if(search === ""){
@@ -37,9 +37,9 @@ const Blog = () => {
   return (
     <section className='blog-section'>
 
-    {/* <div className="search-container">
+    <div className="search-container">
       <input className='search' type="text" placeholder='Buscar' onChange={(event) => {setSearch(event.target.value)}} />
-    </div> */}
+    </div>
 
     <div className="category-buttons">
       <FilterButton name='Desarrollo Web' handleSetCategory={setCategory} categoryActive={ category === 'Desarrollo Web' ? true : false} />
@@ -48,7 +48,14 @@ const Blog = () => {
     
     <div className='blog-container'>
       {
-        filteredArticle.map(({id, categoryimg, category, image, title, datetime, time, url}) => {
+          filteredArticle.filter((title) => {
+            if(search === ""){
+              return title;
+            }
+            else if(title.title.toLowerCase().includes(search.toLowerCase())){
+              return title;
+            }
+          }).map(({id, categoryimg, category, image, title, datetime, time, url}) => {
           return (
             <Article key={id} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
             )
