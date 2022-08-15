@@ -34,8 +34,8 @@ const ArticleData = [
     category: 'Tecnología',
     image: MacBookAirM2,
     title: 'MacBook Air M2 review',
-    datetime: '2022-08-13',
-    time:'Agosto 13, 2022',
+    datetime: '2022-08-14',
+    time:'Agosto 14, 2022',
     url: 'MacBookAirM2review',
     },
 ]
