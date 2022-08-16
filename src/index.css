@@ -761,8 +761,8 @@ time {
 }
 .article-container img, .article-container .video {
     min-width: 44rem;
-    max-width: 60rem;
-    margin-bottom: 2rem;
+    max-width: 70rem;
+    margin: 2rem 0;
     border-radius: .8rem;
     -webkit-border-radius: .8rem;
     -moz-border-radius: .8rem;
@@ -839,14 +839,8 @@ table tr {
 }
 th, td {
     vertical-align: top;
-    padding: 1.2rem;
+    padding: 1.6rem 1.2rem;
     text-align: left;
-}
-.article-container table p {
-    margin: 0;
-}
-.article-container table td p {
-    margin-bottom: 1rem;
 }
 table th.align-left {
     width: 18rem;
@@ -855,7 +849,6 @@ table th.align-left p {
     font-size: 1.6rem;
 }
 /* TABLE */
-
 
 .recommended-articles {
     padding: 0 0 0 2rem;
