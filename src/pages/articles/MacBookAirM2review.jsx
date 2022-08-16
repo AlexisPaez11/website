@@ -39,10 +39,7 @@ const MacBookAirM2review = () => {
         <br/><br/><br/>
         {/* <h2></h2> */}
         <p>En la conferencia de la WWDC 2022 nos presentaron novedades de iOS16, macOS Ventura watchOS 9 y ipadOS 16, pero el nuevo MacBook Air M2 fue el principal protagonista de este evento.</p>
-        <ul>
-          <li>MacBook Air M1 (2020): $999</li>
-          <li>MacBook Air M2 (2022): $1.199</li>
-        </ul>
+        <p>Apple presento el MacBook Air con el nuevo chip M2 junto a un rediseño innovador que iguala a los MacBook Pro que se presentaron el pasado año.</p>
         
         <br/><br/><br/>
         <h2>Diseño delgado y sólido</h2>
