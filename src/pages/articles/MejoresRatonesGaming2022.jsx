@@ -9,7 +9,7 @@ import LogitechG903 from '../../assets/blog-assets/ratones-gaming/logitech-g903.
 import LogitechG502 from '../../assets/blog-assets/ratones-gaming/logitech-g502.webp'
 import LogitechGPROXSuperlight from '../../assets/blog-assets/ratones-gaming/logitech-g-pro-x-superlight.webp'
 import LogitechG305 from '../../assets/blog-assets/ratones-gaming/logitech-g305.webp'
-import RazerViperV2 from '../../assets/blog-assets/ratones-gaming/razer-viper-v2-pro.webp'
+import RazerViperV2 from '../../assets/blog-assets/ratones-gaming/razer-viper-v2-pro.png'
 import RazerBasiliskV2 from '../../assets/blog-assets/ratones-gaming/razer-basilisk-x-hyperspeed.webp'
 import RazerOrochiV2 from '../../assets/blog-assets/ratones-gaming/razer-orochi-v2.webp'
 import CorsairM65PRO from '../../assets/blog-assets/ratones-gaming/corsair-m65-pro.webp'
