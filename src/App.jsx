@@ -14,6 +14,7 @@ import { IoIosArrowUp } from 'react-icons/io'
 import DevToolsChrome103 from './pages/articles/DevToolsChrome103'
 import EtiquetasHtmlEsenciales from './pages/articles/EtiquetasHtmlEsenciales'
 import MacBookAirM2review from './pages/articles/MacBookAirM2review'
+import MejoresRatonesGaming2022 from './pages/articles/MejoresRatonesGaming2022'
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path='/Blog/DevToolsChrome103' element={<DevToolsChrome103 />} />
         <Route path='/Blog/EtiquetasHtmlEsenciales' element={<EtiquetasHtmlEsenciales />} />
         <Route path='/Blog/MacBookAirM2review' element={<MacBookAirM2review />} />
+        <Route path='/Blog/MejoresRatonesGaming2022' element={<MejoresRatonesGaming2022 />} />
       </Routes>
       
       <Footer />
