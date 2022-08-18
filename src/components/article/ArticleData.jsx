@@ -45,8 +45,8 @@ const ArticleData = [
     category: 'Tecnología',
     image: MejoresRatonesGaming2022,
     title: 'Los mejores ratones gaming 2022',
-    datetime: '2022-08-16',
-    time:'Agosto 16, 2022',
+    datetime: '2022-08-18',
+    time:'Agosto 18, 2022',
     url: 'MejoresRatonesGaming2022',
     },
 ]

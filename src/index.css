@@ -59,6 +59,9 @@ hr {
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
 }
+.article-container hr {
+    width: 100%;
+}
 
 section {
     width: 100%;

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import Article from '../../components/article/Article'
 
 import { IoIosArrowBack } from 'react-icons/io' // Back
-import { HiCode } from 'react-icons/hi' // CategoryDev  
+import { HiCode } from 'react-icons/hi' // CategoryDev
 
 import IMG1 from '../../assets/blog-assets/chrome-103/img1.png'
 import IMG2 from '../../assets/blog-assets/chrome-103/img2.png'

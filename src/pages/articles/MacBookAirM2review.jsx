@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import Article from '../../components/article/Article'
 
 import { IoIosArrowBack } from 'react-icons/io' // Back
-import { HiCode } from 'react-icons/hi' // CategoryDev
+import { IoGitNetworkSharp } from 'react-icons/io5' // CategoryTech
 
 import IMG1 from '../../assets/blog-assets/macbook-air-m2-review/img1.webp'
 import IMG2 from '../../assets/blog-assets/macbook-air-m2-review/img2.webp'
@@ -11,18 +11,18 @@ import IMG3 from '../../assets/blog-assets/macbook-air-m2-review/img3.webp'
 import IMG4 from '../../assets/blog-assets/macbook-air-m2-review/img4.webp'
 import IMG5 from '../../assets/blog-assets/macbook-air-m2-review/img5.webp'
 
-import DevToolsChrome from '../../assets/blog-assets/devtools.webp'
+import MejoresRatonesGaming2022 from '../../assets/blog-assets/mejores-ratones-gaming-2022.webp'
 
 const ArticleData = [
   {
-    id: 1,
-    categoryimg: <HiCode />,
-    category: 'Desarrollo Web',
-    image: DevToolsChrome,
-    title: 'Novedades en DevTools (Chrome 103)',
-    datetime: '2022-07-24',
-    time:'Julio 24, 2022',
-    url: 'DevToolsChrome103',
+    id: 4,
+    categoryimg: <IoGitNetworkSharp />,
+    category: 'Tecnología',
+    image: MejoresRatonesGaming2022,
+    title: 'Los mejores ratones gaming 2022',
+    datetime: '2022-08-18',
+    time:'Agosto 18, 2022',
+    url: 'MejoresRatonesGaming2022',
   },
 ]
 

@@ -18,7 +18,7 @@ import { HiViewGridAdd } from 'react-icons/hi' // SeeMore
 import DevToolsChrome from '../../assets/blog-assets/devtools.webp'
 import HTML from '../../assets/blog-assets/html.webp'
 import MacBookAirM2 from '../../assets/blog-assets/macbook-air-m2.webp'
-import MejoresRatonesGaming2022 from '../../assets/blog-assets/macbook-air-m2.webp'
+import MejoresRatonesGaming2022 from '../../assets/blog-assets/mejores-ratones-gaming-2022.webp'
 // import CSS from '../../assets/blog-assets/css.webp'
 // import JavaScript from '../../assets/blog-assets/javascript.webp'
 // import React from '../../assets/blog-assets/react.webp'
@@ -95,8 +95,8 @@ const ArticleData = [
     category: 'Tecnología',
     image: MejoresRatonesGaming2022,
     title: 'Los mejores ratones gaming 2022',
-    datetime: '2022-08-16',
-    time:'Agosto 16, 2022',
+    datetime: '2022-08-18',
+    time:'Agosto 18, 2022',
     url: 'MejoresRatonesGaming2022',
     },
 ]
