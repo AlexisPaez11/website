@@ -5,15 +5,15 @@ import Article from '../../components/article/Article'
 import { IoIosArrowBack } from 'react-icons/io' // Back
 import { HiCode } from 'react-icons/hi' // CategoryDev
 
+import SteelseriesAerox5 from '../../assets/blog-assets/ratones-gaming/steelseries-aerox5.webp'
 import LogitechG903 from '../../assets/blog-assets/ratones-gaming/logitech-g903.webp'
 import LogitechG502 from '../../assets/blog-assets/ratones-gaming/logitech-g502.webp'
 import LogitechGPROXSuperlight from '../../assets/blog-assets/ratones-gaming/logitech-g-pro-x-superlight.webp'
 import LogitechG305 from '../../assets/blog-assets/ratones-gaming/logitech-g305.webp'
-import RazerViperV2 from '../../assets/blog-assets/ratones-gaming/razer-viper-v2-pro.png'
-import RazerBasiliskV2 from '../../assets/blog-assets/ratones-gaming/razer-basilisk-x-hyperspeed.webp'
+import RazerViperUltimate from '../../assets/blog-assets/ratones-gaming/razer-viper-ultimate.webp'
+import RazerBasiliskUltimate from '../../assets/blog-assets/ratones-gaming/razer-basilisk-ultimate.webp'
 import RazerOrochiV2 from '../../assets/blog-assets/ratones-gaming/razer-orochi-v2.webp'
 import CorsairM65PRO from '../../assets/blog-assets/ratones-gaming/corsair-m65-pro.webp'
-import SteelseriesAerox5 from '../../assets/blog-assets/ratones-gaming/steelseries-aerox5.webp'
 
 import DevToolsChrome from '../../assets/blog-assets/devtools.webp'
 
@@ -49,32 +49,34 @@ const MejoresRatonesGaming2022 = () => {
           <li>Largo: 128.8 mm - Ancho: 62.8 mm - Alto: 26.7 mm</li>
           <li>74g de peso</li>
         </ul>
-        <img src={SteelseriesAerox5} alt=''/>
+        <img src={SteelseriesAerox5} alt='Steelseries Aerox 5'/>
         
         <br/><br/><br/>
-        <h3>Razer Viper V2</h3>
+        <h3>Razer Viper Ultimate</h3>
         <ul>
-          <li>Colores: Negro, Blanco</li>
-          <li>30.000 DPI, aceleración de 70G, 750 IPS</li>
-          <li>5 botones programables</li>
-          <li>Bateria de hasta 80 horas de duración</li>
-          <li>Largo: 126.5 mm - Ancho: 66.2 mm - Alto: 37.8 mm</li>
-          <li>58g de peso</li>
+          <li>Colores: Negro, Mercury, Quartz, Cyberpunk</li>
+          <li>20.000 DPI, aceleración de 50G, 650 IPS</li>
+          <li>8 botones programables</li>
+          <li>Bateria de hasta 70 horas de duración</li>
+          <li>Largo: 127.0 mm - Ancho: 66.0 mm - Alto: 38.0 mm</li>
+          <li>74g de peso</li>
+          <li>Compatibilidad con base de carga</li>
         </ul>
-        <img src={RazerViperV2} alt=''/>
+        <img src={RazerViperUltimate} alt='Razer Viper Ultimate'/>
 
 
         <br/><br/><br/>
-        <h3>Razer Basilisk V2</h3>
+        <h3>Razer Basilisk Ultimate</h3>
         <ul>
           <li>Colores: Negro</li>
-          <li>16.000 DPI, aceleración de 40G, 450IPS</li>
-          <li>6 botones programables</li>
-          <li>Bateria de hasta 450 horas de duración</li>
+          <li>20.000 DPI, aceleración de 50G, 650IPS</li>
+          <li>11 botones programables</li>
+          <li>Bateria de hasta 100 horas de duración</li>
           <li>Largo: 130.0 mm - Ancho: 75.0 mm - Alto: 42.0 mm</li>
-          <li>83g de peso</li>
+          <li>107g de peso</li>
+          <li>Compatibilidad con base de carga</li>
         </ul>
-        <img src={RazerBasiliskV2} alt=''/>
+        <img src={RazerBasiliskUltimate} alt='Razer Basilisk Ultimate'/>
 
 
         <br/><br/><br/>
@@ -87,7 +89,7 @@ const MejoresRatonesGaming2022 = () => {
           <li>Largo: 108.0 mm - Ancho: 62.6 mm - Alto: 38.5 mm</li>
           <li>60g de peso</li>
         </ul>
-        <img src={RazerOrochiV2} alt=''/>
+        <img src={RazerOrochiV2} alt='Razer Orochi V2'/>
 
 
         <br/><br/><br/>
@@ -100,7 +102,7 @@ const MejoresRatonesGaming2022 = () => {
           <li>110-120g de peso</li>
           <li>Compatibilidad con Powerplay</li>
         </ul>
-        <img src={LogitechG903} alt=''/>
+        <img src={LogitechG903} alt='Logitech G903'/>
 
 
         <br/><br/><br/>
@@ -114,7 +116,7 @@ const MejoresRatonesGaming2022 = () => {
           <li>114-130g de peso</li>
           <li>Compatibilidad con Powerplay</li>
         </ul>
-        <img src={LogitechG502} alt=''/>
+        <img src={LogitechG502} alt='Logitech G502'/>
 
 
         <br/><br/><br/>
@@ -128,7 +130,7 @@ const MejoresRatonesGaming2022 = () => {
           <li>63g de peso</li>
           <li>Compatibilidad con Powerplay</li>
         </ul>
-        <img src={LogitechGPROXSuperlight} alt=''/>
+        <img src={LogitechGPROXSuperlight} alt='Logitech G PRO X Superlight'/>
 
 
         <br/><br/><br/>
@@ -141,7 +143,7 @@ const MejoresRatonesGaming2022 = () => {
           <li>Largo: 116.6 mm - Ancho: 62.15 mm - Alto: 38.2 mm</li>
           <li>99g de peso</li>
         </ul>
-        <img src={LogitechG305} alt=''/>
+        <img src={LogitechG305} alt='Logitech G305'/>
 
 
         <br/><br/><br/>
@@ -154,7 +156,7 @@ const MejoresRatonesGaming2022 = () => {
           <li>Largo: 118.0 mm - Ancho: 72.0 mm - Alto: 39.0 mm</li>
           <li>115-135g de peso</li>
         </ul>
-        <img src={CorsairM65PRO} alt=''/>
+        <img src={CorsairM65PRO} alt='Corsair M65 PRO'/>
       </div>
       <aside className='recommended-articles'>
         {
