@@ -41,24 +41,24 @@ const MejoresRatonesGaming2022 = () => {
 
         <br/><br/><br/>
         <br/><br/><br/>
-        <p>A diferencia de las consolas, que incluyen su mando para disfrutar de los mejores titulos, si vas a jugar en PC, hay ciertos periféricos esenciales. Uno de ellos es el ratón. Un buen ratón gaming puede ofrecernos una serie de ventajas competitivas. En esta guía analizamos qué hay que tener en cuenta a la hora de elegir un buen ratón.</p>
+        <p>A diferencia de las consolas, que incluyen su mando para disfrutar de los mejores títulos, si vas a jugar en PC, hay ciertos periféricos esenciales. Uno de ellos es el ratón. Un buen ratón gaming puede ofrecernos una serie de ventajas competitivas. En esta guía analizamos qué hay que tener en cuenta a la hora de elegir un buen ratón.</p>
 
         <br/><br/><br/>
         <h2>DPI</h2>
         <p>El término DPI (puntos por pulgada) hace referencia a la velocidad máxima del desplazamiento del puntero en la pantalla en relación con el movimiento de nuestra mano. <strong>Cuanto mayor sea el DPI, menos tendremos que mover el ratón para que el cursor se desplace por la pantalla.</strong></p>
-        <p>Normalmente los DPI en ratones gaming son configurables, por lo que se podra personalizar este aspecto en función de nuestros gustos.</p>
+        <p>Normalmente, los DPI en ratones gaming son configurables, por lo que se podrá personalizar este aspecto en función de nuestros gustos.</p>
 
         <br/><br/><br/>
         <h2>Opciones de configuración</h2>
-        <p>Ademas de la tecnología y los DPI máximos que alcanza, la configuración es uno de los factores más importantes a la hora de elegir un ratón gaming.</p>
+        <p>Además de la tecnología y los DPI máximos que alcanza, la configuración es uno de los factores más importantes a la hora de elegir un ratón gaming.</p>
         <img src={IMG1} alt=''/>
-        <p>El número y disposición de los elementos configurables de un ratón gaming es el factor diferencial a un ratón estándar, limitado a nivel de personalización.</p>
-        <p>Ademas de permitir el ajuste de los DPI, también encontraremos una serie de botones para programar acciones y atajos en función de nuestras necesidades, pero tambien pueden ofrecernos funciones como la iluminación.</p>
+        <p>El número y disposición de los elementos configurables de un ratón gaming es el factor diferencial a un ratón estándar, limitado en personalización.</p>
+        <p>Además de permitir el ajuste de los DPI, también encontraremos una serie de botones para programar acciones y atajos en función de nuestras necesidades, pero también pueden ofrecernos funciones como la iluminación.</p>
         <p>Hay modelos diferentes en cuanto a diseño, textura, tamaño y peso. Algunos modelos incluyen un sistema de pesas para ajustarlo según nos convenga.</p>
 
         <br/><br/><br/>
         <h2>¿Con o sin cables?</h2>
-        <p>Anteriormente si buscabamos una buena experiencia gaming teníamos que inclinarnos por un modelo con cable ya que la tecnología inalámbrica no estaba a la altura a nivel de velocidad. En la actualidad ya es posible que los ratones sin cable sean capaces de ofrecernos la mejor experiencia. Adquirir un ratón wireless va a ser más costoso a diferencia del cableado.</p>
+        <p>Anteriormente, si buscábamos una buena experiencia gaming teníamos que inclinarnos por un modelo con cable, ya que la tecnología inalámbrica no estaba a la altura en velocidad. En la actualidad ya es posible que los ratones sin cable sean capaces de ofrecernos la mejor experiencia. Adquirir un ratón wireless va a ser más costoso a diferencia del cableado.</p>
         <br/><br/><br/>
 
         <hr />
