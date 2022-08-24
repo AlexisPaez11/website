@@ -97,6 +97,9 @@ section {
     background-color: var(--color-component);
     color: var(--color-text-variant);
 }
+.header-section .btn, .blog-section .btn {
+    font-size: 1.6rem;
+}
 .btn-variant {
     background-color: var(--color-component-variant1);
     color: var(--color-text-variant);
@@ -184,7 +187,7 @@ nav .nav-menu-item a {
     cursor: pointer;
     color: var(--color-text-variant);
     align-self: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
 
     position: relative;
@@ -487,11 +490,11 @@ section.h-projects, section.h-articles {
     gap: .8rem;
 }
 .category-container svg {
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 3.6rem;
+    height: 3.6rem;
     stroke: var(--color-text-variant);
     background-color: var(--color-component-variant1);
-    padding: .4rem;
+    padding: .6rem;
     border-radius: .8rem;
     -webkit-border-radius: .8rem;
     -moz-border-radius: .8rem;
@@ -510,7 +513,7 @@ section.h-projects, section.h-articles {
     background-color: var(--color-bg);
 }
 .category-container span {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: var(--color-text-variant);
     white-space: nowrap;
@@ -520,14 +523,15 @@ section.h-projects, section.h-articles {
 .article-title {
     color: var(--color-text);
     font-size: 2rem;
+    line-height: 2.8rem;
     font-weight: 700;
-    height: 4.8rem;
+    height: 5.6rem;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 time {
     color: var(--color-text-variant);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 /* ____________ ARTICLE CARD _____________ */
@@ -630,7 +634,7 @@ time {
 }
 .search-container .search {
     font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
     width: 100%;
     background-color: var(--color-component);
@@ -745,7 +749,7 @@ time {
 .article-container li {
     color: var(--color-text-variant);
     font-size: 1.8rem;
-    line-height: 2.6rem;
+    line-height: 2.8rem;
     font-weight: 500;
     margin-bottom: 1rem;
     list-style: initial;
@@ -804,10 +808,10 @@ pre .lenguaje svg path {
 pre, code {
     display: block;
     overflow: auto;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
     font-weight: 500;
-    padding: .8rem 0 .8rem .8rem;
+    padding: 1rem 0 1rem 1rem;
     tab-size: 2;
     text-align: left;
     white-space: pre;
@@ -847,7 +851,7 @@ table th.align-left {
     width: 18rem;
 }
 table th.align-left p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 /* TABLE */
 
@@ -923,7 +927,7 @@ table th.align-left p {
 /* SECTION 2 */
 .aboutMe-section p {
     font-size: 1.8rem;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
     font-weight: 500;
     color: var(--color-text-variant);
 }
@@ -952,7 +956,6 @@ table th.align-left p {
     color: var(--color-text-variant);
     background-color: var(--color-component);
     font-size: 1.6rem;
-    line-height: 1.4rem;
     font-weight: 700;
     padding: 1.2rem 2.2rem;
     margin-right: .8rem;
@@ -978,7 +981,7 @@ table th.align-left p {
     max-width: 54.2rem;
     min-width: 26rem;
     font-size: 1.8rem;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
     font-weight: 500;
     color: var(--color-text-variant);
 }
@@ -1021,9 +1024,8 @@ table th.align-left p {
 }
 .contact-container form label {
     width: 100%;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    line-height: 2rem;
     color: var(--color-text-variant);
     /* height: 1.6rem; */
 }
@@ -1031,9 +1033,8 @@ table th.align-left p {
     width: 100%;
     height: 4.4rem;
     width: 100%;
-    padding: 1.2rem 2.2rem;
+    padding: 1.2rem 1.6rem;
     font-size: 1.6rem;
-    line-height: 2rem;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
     background-color: var(--color-component);
@@ -1051,7 +1052,7 @@ table th.align-left p {
 .contact-container form textarea {
     width: 100%;
     height: 13.8rem;
-    padding: 1.2rem 2.2rem;
+    padding: 1.2rem 1.6rem;
     font-size: 1.6rem;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
@@ -1093,15 +1094,13 @@ footer {
     align-items: center;
     border-top: 1.5px solid var(--color-component-variant1);
 }
-footer p {
-    color: var(--color-text-variant);
-    font-size: 1.4rem;
-    font-weight: 500;
-}
 /* ____________ FOOTER _____________ */
 
 /* ____________ MEDIA QUERIES _____________ */
 @media screen and (max-width: 1200px) {
+    .scroll-to-top.scrollToTopButton {
+        right: 6rem;
+    }
     .article-section {
         padding: 0 6rem;
         flex-direction: column;
@@ -1142,11 +1141,11 @@ footer p {
     }
 }
 @media screen and (max-width: 600px) {
+    .scroll-to-top.scrollToTopButton {
+        right: 2rem;
+    }
     section {
         padding: 0 2rem;
-    }
-    .scrollToTopButton {
-        bottom: 10.8rem;
     }
 
     /* NAV */
