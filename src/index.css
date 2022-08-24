@@ -274,7 +274,7 @@ nav .nav-menu-logo a.active:focus:after {
 .header-container p {
     position: relative;
     font-size: 2.4rem;
-    line-height: 3rem;
+    line-height: 3.6rem;
     font-weight: 500;
 }
 .header-container h1::before,
@@ -284,13 +284,13 @@ nav .nav-menu-logo a.active:focus:after {
     font-family: 'La Belle Aurore', cursive;
     font-size: 2.8rem;
     font-weight: 700;
-    top: -5rem;
+    top: -5.6rem;
     left: 0;
     color: var(--color-component-variant2);
 }
 .header-container p::before {
     content: "<p>";
-    top: -3.2rem;
+    top: -3.8rem;
 }
 .header-container h1 .last-letter::after,
 .header-container p .last-letter::after {
@@ -513,7 +513,7 @@ section.h-projects, section.h-articles {
     background-color: var(--color-bg);
 }
 .category-container span {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
     color: var(--color-text-variant);
     white-space: nowrap;
@@ -918,6 +918,7 @@ table th.align-left p {
 .biography h1 {
     font-size: 3.2rem;
     font-weight: 700;
+    margin-bottom: .4rem;
 }
 .biography p {
     font-size: 1.8rem;
