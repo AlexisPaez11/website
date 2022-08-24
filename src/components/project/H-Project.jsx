@@ -28,7 +28,7 @@ const Projects = () => {
 
       <Swiper slidesPerView={'auto'} navigation={true} modules={[Navigation]} className="swiper">
           {
-            ProjectData.map(({id, image, title, technologies, github, demo}) => {
+            ProjectData.slice(0,3).map(({id, image, title, technologies, github, demo}) => {
               return (
                 <SwiperSlide>
                   <Project key={id} image={image} title={title} technologies={technologies} github={github} demo={demo} />
@@ -46,7 +46,6 @@ const Projects = () => {
 
 const ProjectData = [
   {
-    id: 1,
     image: YoutubeClone,
     title: 'Youtube Clone',
     technologies: [<SiHtml5 />, <SiCss3 />, <SiJavascript />],
@@ -54,7 +53,6 @@ const ProjectData = [
     demo: 'https://alexispaez11.github.io/Youtube/',
   },
   {
-    id: 2,
     image: TwitterClone,
     title: 'Twitter Clone',
     technologies: [<SiHtml5 />, <SiCss3 />],
@@ -62,7 +60,6 @@ const ProjectData = [
     demo: 'https://alexispaez11.github.io/Twitter/',
   },
   {
-    id: 3,
     image: CarRental,
     title: 'Car Rental',
     technologies: [<SiReact />, <SiCss3 />],

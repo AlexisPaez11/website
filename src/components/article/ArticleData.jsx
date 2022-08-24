@@ -10,7 +10,6 @@ import MejoresRatonesGaming2022 from '../../assets/blog-assets/mejores-ratones-g
 
 const ArticleData = [
     {
-    id: 1,
     categoryimg: <HiCode />,
     category: 'Desarrollo Web',
     image: DevToolsChrome,
@@ -20,7 +19,6 @@ const ArticleData = [
     url: 'DevToolsChrome103',
     },
     {
-    id: 2,
     categoryimg: <HiCode />,
     category: 'Desarrollo Web',
     image: HTML,
@@ -30,7 +28,6 @@ const ArticleData = [
     url: 'EtiquetasHtmlEsenciales',
     },
     {
-    id: 3,
     categoryimg: <IoGitNetworkSharp />,
     category: 'Tecnología',
     image: MacBookAirM2,
@@ -40,7 +37,6 @@ const ArticleData = [
     url: 'MacBookAirM2review',
     },
     {
-    id: 4,
     categoryimg: <IoGitNetworkSharp />,
     category: 'Tecnología',
     image: MejoresRatonesGaming2022,

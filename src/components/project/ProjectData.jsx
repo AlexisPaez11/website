@@ -5,7 +5,6 @@ import CarRental from '../../assets/projects-assets/car-rental.webp'
 
 const ProjectData = [
   {
-    id: 1,
     image: YoutubeClone,
     title: 'Youtube Clone',
     technologies: [<SiHtml5 />, <SiCss3 />, <SiJavascript />],
@@ -13,7 +12,6 @@ const ProjectData = [
     demo: 'https://alexispaez11.github.io/Youtube/',
   },
   {
-    id: 2,
     image: TwitterClone,
     title: 'Twitter Clone',
     technologies: [<SiHtml5 />, <SiCss3 />],
@@ -21,7 +19,6 @@ const ProjectData = [
     demo: 'https://alexispaez11.github.io/Twitter/',
   },
   {
-    id: 3,
     image: CarRental,
     title: 'Car Rental',
     technologies: [<SiReact />, <SiCss3 />],

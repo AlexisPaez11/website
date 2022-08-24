@@ -46,9 +46,9 @@ const Blog = () => {
           else if(title.title.toLowerCase().includes(search.toLowerCase())){
             return title;
           }
-        }).map(({id, categoryimg, category, image, title, datetime, time, url}) => {
+        }).map(({categoryimg, category, image, title, datetime, time, url}) => {
         return (
-          <Article key={id} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
+          <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
           )
         })
       }

@@ -5,7 +5,6 @@ import Article from '../../components/article/Article'
 import { IoIosArrowBack } from 'react-icons/io' // Back
 import { IoGitNetworkSharp } from 'react-icons/io5' // CategoryTech
 
-import IMG1 from '../../assets/blog-assets/ratones-gaming/img1.webp'
 import SteelseriesAerox5 from '../../assets/blog-assets/ratones-gaming/steelseries-aerox5.webp'
 import LogitechG903 from '../../assets/blog-assets/ratones-gaming/logitech-g903.webp'
 import LogitechG502 from '../../assets/blog-assets/ratones-gaming/logitech-g502.webp'
@@ -51,7 +50,6 @@ const MejoresRatonesGaming2022 = () => {
         <br/><br/><br/>
         <h2>Opciones de configuración</h2>
         <p>Además de la tecnología y los DPI máximos que alcanza, la configuración es uno de los factores más importantes a la hora de elegir un ratón gaming.</p>
-        <img src={IMG1} alt=''/>
         <p>El número y disposición de los elementos configurables de un ratón gaming es el factor diferencial a un ratón estándar, limitado en personalización.</p>
         <p>Además de permitir el ajuste de los DPI, también encontraremos una serie de botones para programar acciones y atajos en función de nuestras necesidades, pero también pueden ofrecernos funciones como la iluminación.</p>
         <p>Hay modelos diferentes en cuanto a diseño, textura, tamaño y peso. Algunos modelos incluyen un sistema de pesas para ajustarlo según nos convenga.</p>

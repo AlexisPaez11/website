@@ -1,6 +1,6 @@
 import React from 'react'
 import CTA from './CTA'
-import Socials from '../Socials'
+import Socials from './Socials'
 
 const Header = () => {
   return (

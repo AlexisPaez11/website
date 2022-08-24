@@ -1,8 +1,8 @@
 import React from 'react'
-import CTA from '../components/header/CTA'
+import CTA from '../components/CTA'
 import AboutMe from '../components/about/AboutMe.jsx'
 import Profile from '../assets/alexispaez.png'
-import Contact from '../components/contact/Contact'
+import Contact from '../components/Contact'
 
 const About = () => {
   return (
