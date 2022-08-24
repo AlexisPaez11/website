@@ -74,6 +74,7 @@ const EtiquetasHtmlEsenciales = () => {
         <h4>{`<a>`}</h4>
         <p>La etiqueta {`<a>`} nos permite realizar enlaces hacia documentos externos, como otros sitios web, direcciones de correo o cualquier otra URL a través del atributo <strong>href</strong> donde indicaremos el enlace al que queremos conectar y con el atributo <strong>target</strong> podemos indicar que el enlace se abra en una nueva ventana. También nos permite enlazarnos hacia alguna parte específica del mismo documento.</p>
         <pre>
+          <div className='lenguaje'><SiHtml5 /></div>
           <code>{`<a href='https://www.google.com/' target='_blank'>Enlace a Google</a>`}</code>
         </pre>
 
@@ -103,6 +104,7 @@ const EtiquetasHtmlEsenciales = () => {
         <h4>{`<img>`}</h4>
         <p>La etiqueta {`<img>`} nos permite mostrar imágenes dentro del contenido. Indicaremos mediante el atributo <strong>src</strong> la ruta de la imagen. Siendo un elemento vacío, no necesita de una etiqueta de cierre.</p>
         <pre>
+          <div className='lenguaje'><SiHtml5 /></div>
           <code>{`<img src=''>`}</code>
         </pre>
 
