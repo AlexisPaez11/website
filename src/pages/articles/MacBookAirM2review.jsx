@@ -15,15 +15,13 @@ import MejoresRatonesGaming2022 from '../../assets/blog-assets/mejores-ratones-g
 
 const ArticleData = [
   {
-    id: 4,
     categoryimg: <IoGitNetworkSharp />,
     category: 'Tecnología',
     image: MejoresRatonesGaming2022,
     title: 'Los mejores ratones gaming 2022',
-    datetime: '2022-08-18',
-    time:'Agosto 18, 2022',
+    date:'Agosto 18, 2022',
     url: 'MejoresRatonesGaming2022',
-  },
+    },
 ]
 
 const MacBookAirM2review = () => {
@@ -188,7 +186,7 @@ const MacBookAirM2review = () => {
         {
           ArticleData.map(({id, categoryimg, category, image, title, datetime, time, url}) => {
             return (
-              <Article id={id} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
+              <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
             )
           })
         }

@@ -18,15 +18,13 @@ import HTML from '../../assets/blog-assets/html.webp'
 
 const ArticleData = [
   {
-    id: 2,
     categoryimg: <HiCode />,
     category: 'Desarrollo Web',
     image: HTML,
     title: 'Etiquetas HTML esenciales que debes conocer',
-    datetime: '2022-07-25',
-    time:'Julio 25, 2022',
+    date:'Julio 25, 2022',
     url: 'EtiquetasHtmlEsenciales',
-  },
+    },
 ]
 
 const DevToolsChrome103 = () => {
@@ -153,7 +151,7 @@ const DevToolsChrome103 = () => {
         {
           ArticleData.map(({id, categoryimg, category, image, title, datetime, time, url}) => {
             return (
-              <Article id={id} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
+              <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
             )
           })
         }

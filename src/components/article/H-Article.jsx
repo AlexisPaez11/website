@@ -43,10 +43,10 @@ const Articles = () => {
       <Swiper slidesPerView={'auto'} navigation={true} modules={[Navigation]} className="swiper">
 
         {
-          ArticleData.slice(0,6).map(({categoryimg, category, image, title, datetime, time, url}) => {
+          ArticleData.slice(0,6).map(({categoryimg, category, image, title, date, url}) => {
             return (
               <SwiperSlide key={url}>
-                <Article categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
+                <Article categoryimg={categoryimg} category={category} image={image} title={title} date={date} url={url} />
               </SwiperSlide>
             )
           })

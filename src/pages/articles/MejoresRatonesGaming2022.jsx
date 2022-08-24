@@ -19,15 +19,13 @@ import MacBookAirM2 from '../../assets/blog-assets/macbook-air-m2.webp'
 
 const ArticleData = [
   {
-    id: 3,
     categoryimg: <IoGitNetworkSharp />,
     category: 'Tecnología',
     image: MacBookAirM2,
     title: 'MacBook Air M2 review',
-    datetime: '2022-08-14',
-    time:'Agosto 14, 2022',
+    date:'Agosto 14, 2022',
     url: 'MacBookAirM2review',
-  },
+    },
 ]
 const MejoresRatonesGaming2022 = () => {
   return (
@@ -182,9 +180,9 @@ const MejoresRatonesGaming2022 = () => {
       </div>
       <aside className='recommended-articles'>
         {
-          ArticleData.map(({id, categoryimg, category, image, title, datetime, time, url}) => {
+          ArticleData.map(({categoryimg, category, image, title, datetime, time, url}) => {
             return (
-              <Article id={id} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
+              <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
             )
           })
         }

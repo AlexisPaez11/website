@@ -10,15 +10,13 @@ import DevToolsChrome from '../../assets/blog-assets/devtools.webp'
 
 const ArticleData = [
   {
-    id: 1,
     categoryimg: <HiCode />,
     category: 'Desarrollo Web',
     image: DevToolsChrome,
     title: 'Novedades en DevTools (Chrome 103)',
-    datetime: '2022-07-24',
-    time:'Julio 24, 2022',
+    date:'Julio 24, 2022',
     url: 'DevToolsChrome103',
-  },
+    },
 ]
 
 const EtiquetasHtmlEsenciales = () => {
@@ -131,7 +129,7 @@ const EtiquetasHtmlEsenciales = () => {
         {
           ArticleData.map(({id, categoryimg, category, image, title, datetime, time, url}) => {
             return (
-              <Article id={id} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
+              <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
             )
           })
         }
