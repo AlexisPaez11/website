@@ -6,12 +6,12 @@ import Contact from '../components/Contact'
 
 const About = () => {
   return (
-    <>
+    <div className='about'>
       <div className='frontpage'>
       </div>
       
       <div className='about-container'>
-        <section className='aboutInfo-section'>
+        <div className='aboutInfo'>
           <div className="profile">
             <img src={Profile} alt="" />
           </div>
@@ -22,7 +22,7 @@ const About = () => {
             </div>
             <CTA />
           </div>
-        </section>
+        </div>
 
         <hr />
         <AboutMe />
@@ -36,7 +36,7 @@ const About = () => {
         
         {/* Workspace */}
       </div>
-    </>
+    </div>
   )
 }
 

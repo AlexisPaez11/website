@@ -9,7 +9,7 @@ import Contact from '../components/Contact'
 
 const Home = () => {
   return (
-    <>
+    <div className='home'>
       <Header />
       <hr />
       <Projects />
@@ -19,7 +19,7 @@ const Home = () => {
       <AboutMe />
       <hr />
       <Contact />
-    </>
+    </div>
   )
 }
 

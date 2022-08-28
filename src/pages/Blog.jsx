@@ -26,7 +26,7 @@ const Blog = () => {
   // Filter
 
   return (
-    <section className='blog-section'>
+    <div className='blog-section'>
 
     <div className="search-container">
       <input className='search' type="text" placeholder='Buscar' onChange={(event) => {setSearch(event.target.value)}} />
@@ -53,7 +53,7 @@ const Blog = () => {
         })
       }
     </div>
-  </section>
+  </div>
   )
 }
 

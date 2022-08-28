@@ -4,7 +4,7 @@ import Project from '../components/project/Project'
 
 const Projects = () => {
   return (
-    <section className='project-section'>
+    <div className='project-section'>
       <div className='project-container'>
 
       {
@@ -15,7 +15,7 @@ const Projects = () => {
           })
         }
         </div>
-    </section>
+    </div>
   )
 }
 

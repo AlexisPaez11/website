@@ -65,8 +65,7 @@ hr {
 
 section {
     width: 100%;
-    margin: 5rem 0;
-    padding: 0 6rem;
+    padding: 8rem 6rem;
     transition: var(--transition);
     -webkit-transition: var(--transition);
     -moz-transition: var(--transition);
@@ -97,7 +96,7 @@ section {
     background-color: var(--color-component);
     color: var(--color-text-variant);
 }
-.header-section .btn, .blog-section .btn {
+.header-section .btn, .blog-section .btn, .aboutInfo .btn {
     font-size: 1.6rem;
 }
 .btn-variant {
@@ -248,7 +247,7 @@ nav .nav-menu-logo a.active:focus:after {
 
 /* ____________ HEADER _____________ */
 .header-section {
-    margin: 12rem 0;
+    padding: 12rem 6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -611,7 +610,12 @@ time {
 .project-section, .blog-section {
     display: flex;
     flex-direction: column;
-    margin: 5rem 0 5rem;
+    padding: 6rem 6rem 8rem;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
 }
 .project-container, .blog-container {
     display: grid;
@@ -882,8 +886,9 @@ table th.align-left p {
     gap: 2rem;
 }
 /* SECTION 1 */
-.aboutInfo-section {
+.aboutInfo {
     margin: 0;
+    padding: 0 6rem;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -893,7 +898,7 @@ table th.align-left p {
     -ms-transform: translateY(-5rem);
     -o-transform: translateY(-5rem);
 }
-.aboutInfo-section img {
+.aboutInfo img {
     width: 16.0rem;
     height: 16.0rem;
     border: .4rem solid var(--color-bg);
@@ -1107,19 +1112,19 @@ footer {
         flex-direction: column;
     }
     .article-container {
-        padding: 0 0 5rem 0;
+        padding: 0 0 6rem 0;
     }
     .recommended-articles {
-        padding: 5rem 0 0 0;
+        padding: 8rem 0;
         border-left: none;
         border-top: 1.5px solid var(--color-component-variant1);
         grid-template-columns: repeat(auto-fill, minmax(26rem, 31.6rem));
     }
-    .aboutInfo-section {
+    .aboutInfo {
         flex-direction: column;
         align-items: flex-start;
     }
-    .aboutInfo-section img {
+    .aboutInfo img {
         margin-right: 0;
         margin-bottom: 2rem;
     }
@@ -1145,9 +1150,20 @@ footer {
     .scroll-to-top.scrollToTopButton {
         right: 2rem;
     }
-    section {
+    section, .header-section {
+        padding: 8rem 2rem;
+    }
+    .aboutInfo {
         padding: 0 2rem;
     }
+    .project-section, .blog-section {
+        padding-inline: 2rem;
+        transition: var(--transition);
+        -webkit-transition: var(--transition);
+        -moz-transition: var(--transition);
+        -ms-transition: var(--transition);
+        -o-transition: var(--transition);
+}
 
     /* NAV */
     nav {
@@ -1251,7 +1267,7 @@ footer {
     .search-container {
         min-width: 26rem;
         width: 100%;
-    }
+}
     .article-section {
         padding: 0 2rem;
     }
@@ -1282,6 +1298,9 @@ footer {
     }
     .swiper-slide {
         width: 26rem;
+    }
+    .project-section, .blog-section {
+        padding: 8rem 2rem;
     }
     .project-container, .blog-container {
         grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
