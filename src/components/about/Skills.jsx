@@ -14,6 +14,7 @@ const Skills = () => {
             <span>Less</span>
             <span>JavaScript</span>
             <span>React</span>
+            <span>Next JS</span>
           </div>
       </div>
 
