@@ -376,7 +376,7 @@ section.h-projects, section.h-articles {
     margin-left: 0rem;
 }
 .swiper-slide:last-child {
-    margin-right: 0rem;
+    margin-right: 4rem;
     width: 4.4rem;
     height: 4.4rem;
 }
@@ -1247,6 +1247,9 @@ footer {
     /* NAV */
     hr {
         width: calc(100% - 4rem);
+    }
+    .swiper-slide:last-child {
+        margin-right: 0rem;
     }
     .swiper-button-next, .swiper-button-prev {
         display: none;
