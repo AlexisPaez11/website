@@ -21,7 +21,7 @@ const ArticleData = [
     title: 'Los mejores ratones gaming 2022',
     date:'Agosto 18, 2022',
     url: 'MejoresRatonesGaming2022',
-    },
+  },
 ]
 
 const MacBookAirM2review = () => {

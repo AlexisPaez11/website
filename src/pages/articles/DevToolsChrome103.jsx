@@ -14,9 +14,18 @@ import IMG6 from '../../assets/blog-assets/chrome-103/img6.png'
 import IMG7 from '../../assets/blog-assets/chrome-103/img7.png'
 import IMG8 from '../../assets/blog-assets/chrome-103/img8.png'
 
+import MejoresLibrosDesarrolladores from '../../assets/blog-assets/libros-desarrolladores/libros-desarrolladores.webp'
 import HTML from '../../assets/blog-assets/html.webp'
 
 const ArticleData = [
+  {
+    categoryimg: <HiCode />,
+    category: 'Desarrollo Web',
+    image: MejoresLibrosDesarrolladores,
+    title: 'Mejores libros para desarrolladores',
+    date:'Septiembre 06, 2022',
+    url: 'MejoresLibrosDesarrolladores',
+  },
   {
     categoryimg: <HiCode />,
     category: 'Desarrollo Web',
@@ -24,7 +33,7 @@ const ArticleData = [
     title: 'Etiquetas HTML esenciales que debes conocer',
     date:'Julio 25, 2022',
     url: 'EtiquetasHtmlEsenciales',
-    },
+  },
 ]
 
 const DevToolsChrome103 = () => {

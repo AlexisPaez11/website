@@ -6,9 +6,18 @@ import { SiHtml5, SiCss3 } from 'react-icons/si'
 import { IoIosArrowBack } from 'react-icons/io' // Back
 import { HiCode } from 'react-icons/hi' // CategoryDev
 
+import TailwindCSSCheatSheet from '../../assets/blog-assets/tailwind-css-cheat-sheet.webp'
 import DevToolsChrome from '../../assets/blog-assets/devtools.webp'
 
 const ArticleData = [
+  {
+    categoryimg: <HiCode />,
+    category: 'Desarrollo Web',
+    image: TailwindCSSCheatSheet,
+    title: 'Tailwind CSS Cheat Sheet',
+    date:'Septiembre 06, 2022',
+    url: 'TailwindCSSCheatSheet',
+  },
   {
     categoryimg: <HiCode />,
     category: 'Desarrollo Web',
@@ -16,7 +25,7 @@ const ArticleData = [
     title: 'Novedades en DevTools (Chrome 103)',
     date:'Julio 24, 2022',
     url: 'DevToolsChrome103',
-    },
+  },
 ]
 
 const EtiquetasHtmlEsenciales = () => {
