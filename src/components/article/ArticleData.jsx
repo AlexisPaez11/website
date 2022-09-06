@@ -11,14 +11,14 @@ import TailwindCSSCheatSheet from '../../assets/blog-assets/tailwind-css-cheat-s
 // import React from '../../assets/blog-assets/react.webp'
 
 const ArticleData = [
-    {
-    categoryimg: <HiCode />,
-    category: 'Desarrollo Web',
-    image: TailwindCSSCheatSheet,
-    title: 'Tailwind CSS Cheat Sheet',
-    date:'Septiembre 06, 2022',
-    url: 'TailwindCSSCheatSheet',
-    },
+    // {
+    // categoryimg: <HiCode />,
+    // category: 'Desarrollo Web',
+    // image: TailwindCSSCheatSheet,
+    // title: 'Tailwind CSS Cheat Sheet',
+    // date:'Septiembre 06, 2022',
+    // url: 'TailwindCSSCheatSheet',
+    // },
     {
     categoryimg: <HiCode />,
     category: 'Desarrollo Web',
