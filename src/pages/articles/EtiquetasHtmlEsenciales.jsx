@@ -6,7 +6,7 @@ import { SiHtml5, SiCss3 } from 'react-icons/si'
 import { IoIosArrowBack } from 'react-icons/io' // Back
 import { HiCode } from 'react-icons/hi' // CategoryDev
 
-import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recursos-tailwind/tailwind-css-cheat-sheet.webp'
+import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recursos-tailwind/resource-tailwind.webp'
 import DevToolsChrome from '../../assets/blog-assets/devtools.webp'
 
 const ArticleData = [

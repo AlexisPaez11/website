@@ -6,7 +6,7 @@ import { IoIosArrowBack } from 'react-icons/io' // Back
 import { HiCode } from 'react-icons/hi' // CategoryDev
 
 import HTML from '../../assets/blog-assets/html.webp'
-import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recursos-tailwind/tailwind-css-cheat-sheet.webp'
+import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recursos-tailwind/resource-tailwind.webp'
 
 import AprendiendoGIT from '../../assets/blog-assets/libros-desarrolladores/aprendiendo-git.webp'
 import ThePragmaticProgrammer from '../../assets/blog-assets/libros-desarrolladores/the-pragmatic-programmer.webp'

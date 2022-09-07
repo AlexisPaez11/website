@@ -804,7 +804,24 @@ time {
     -ms-border-radius: .8rem;
     -o-border-radius: .8rem;
 }
-.article-container video, .article-container iframe {
+.article-container .video {
+    position: relative;
+    padding-bottom: 56.25%;
+
+}
+.article-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: .8rem;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+}
+.article-container video {
     width: 100%;
     border-radius: .8rem;
     -webkit-border-radius: .8rem;
@@ -812,6 +829,7 @@ time {
     -ms-border-radius: .8rem;
     -o-border-radius: .8rem;
 }
+
 /* CODE */
 pre {
     margin: 2rem 0;
@@ -1151,6 +1169,9 @@ footer {
     .article-section {
         padding: 0 6rem;
         flex-direction: column;
+    }
+    .article-container {
+        padding: 2rem 0;
     }
     .recommended-articles {
         padding: 8rem 0;

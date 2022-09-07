@@ -198,7 +198,7 @@ const ColeccionRecursosTailwind = () => {
         <hr />
         <br/><br/><br/>
         <div className='video'>
-          <iframe className='' width="1360" height="480" src="https://www.youtube.com/embed/h5HQVHTpeHs" title="Aprendiendo Tailwind CSS desde Cero. ¡Estila más rápido! ⚡" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="1360" height="480" src="https://www.youtube.com/embed/h5HQVHTpeHs" title="Aprendiendo Tailwind CSS desde Cero. ¡Estila más rápido! ⚡" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div className='video'>
           <iframe width="1360" height="480" src="https://www.youtube.com/embed/kKQdMd2v5CA" title="🆕 Tailwind 3.0 ¡Descubre todas las novedades!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -220,7 +220,6 @@ const ColeccionRecursosTailwind = () => {
         <a href="https://tailwindui.com/templates" class="btn" target="_blank" rel="noreferrer">VISITAR SITIO</a>
 
         <hr />
-        <br/><br/><br/>
         <img src={Template1} alt=''/>
         <div className='cta'>
           <a href="https://github.com/michelegera/tailwindcss-open-template/" class="btn" target="_blank" rel="noreferrer">REPOSITORIO</a>
