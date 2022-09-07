@@ -59,7 +59,7 @@ const ColeccionRecursosTailwind = () => {
         <NavLink to="/Blog" className='btn btn-back'><IoIosArrowBack /></NavLink>
 
         <h1>Colección de recursos para Tailwind</h1>
-        <time dateTime='2022-09-07'>Undefined</time>
+        <time dateTime='2022-09-07'>Septiembre 07, 2022</time>
 
         <br/><br/><br/>
         <br/><br/><br/>

@@ -16,7 +16,7 @@ const ArticleData = [
     category: 'Desarrollo Web',
     image: ColeccionRecursosTailwind,
     title: 'Colección de recursos para Tailwind',
-    date:'Septiembre 06, 2022',
+    date:'Septiembre 07, 2022',
     url: 'ColeccionRecursosTailwind',
     },
     {
