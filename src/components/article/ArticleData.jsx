@@ -5,20 +5,20 @@ import HTML from '../../assets/blog-assets/html.webp'
 import MacBookAirM2 from '../../assets/blog-assets/macbook-air-m2.webp'
 import MejoresRatonesGaming2022 from '../../assets/blog-assets/mejores-ratones-gaming-2022.webp'
 import MejoresLibrosDesarrolladores from '../../assets/blog-assets/libros-desarrolladores/libros-desarrolladores.webp'
-import TailwindCSSCheatSheet from '../../assets/blog-assets/tailwind-css-cheat-sheet.webp'
+import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recursos-tailwind/tailwind-css-cheat-sheet.webp'
 // import CSS from '../../assets/blog-assets/css.webp'
 // import JavaScript from '../../assets/blog-assets/javascript.webp'
 // import React from '../../assets/blog-assets/react.webp'
 
 const ArticleData = [
-    // {
-    // categoryimg: <HiCode />,
-    // category: 'Desarrollo Web',
-    // image: TailwindCSSCheatSheet,
-    // title: 'Tailwind CSS Cheat Sheet',
-    // date:'Septiembre 06, 2022',
-    // url: 'TailwindCSSCheatSheet',
-    // },
+    {
+    categoryimg: <HiCode />,
+    category: 'Desarrollo Web',
+    image: ColeccionRecursosTailwind,
+    title: 'Colección de recursos para Tailwind',
+    date:'Septiembre 06, 2022',
+    url: 'ColeccionRecursosTailwind',
+    },
     {
     categoryimg: <HiCode />,
     category: 'Desarrollo Web',

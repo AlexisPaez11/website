@@ -707,9 +707,6 @@ time {
     -o-transition: var(--transition);
 }
 .article-container .btn {
-    width: 4rem;
-    height: 4rem;
-    padding: .8rem;
     margin-bottom: 2rem;
     transition: var(--transition);
     -webkit-transition: var(--transition);
@@ -720,6 +717,11 @@ time {
 .article-container .btn:hover {
     background-color: var(--color-component-variant1);
 }
+.article-container .btn-back {
+    width: 4rem;
+    height: 4rem;
+    padding: .8rem;
+}
 .article-container .btn svg {
     font-size: 2.4rem;
 }
@@ -728,7 +730,7 @@ time {
 }
 .article-container h1 {
     color: var(--color-text);
-    font-size: 4rem;
+    font-size: 4.4rem;
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -737,19 +739,19 @@ time {
 }
 .article-container h2 {
     color: var(--color-text);
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: 500;
     margin-bottom: 2rem;
 }
 .article-container h3 {
     color: var(--color-text);
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     font-weight: 500;
     margin-bottom: 2rem;
 }
 .article-container h4 {
     color: var(--color-text);
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -776,10 +778,20 @@ time {
 .article-container li::marker {
     color: var(--color-text-variant);
 }
-.article-container a {
+.article-container h1 a,
+.article-container h2 a,
+.article-container h3 a,
+.article-container h4 a,
+.article-container p a,
+.article-container li a {
     color: var(--color-primary);
 }
-.article-container a:hover {
+.article-container h1 a:hover,
+.article-container h2 a:hover,
+.article-container h3 a:hover,
+.article-container h4 a:hover,
+.article-container p a:hover,
+.article-container li a:hover {
     text-decoration: underline;
 }
 .article-container > img, .article-container > .video {
@@ -792,7 +804,7 @@ time {
     -ms-border-radius: .8rem;
     -o-border-radius: .8rem;
 }
-.article-container video {
+.article-container video, .article-container iframe {
     width: 100%;
     border-radius: .8rem;
     -webkit-border-radius: .8rem;
@@ -871,8 +883,8 @@ table th.align-left p {
 /* BOOK */
 .book {
     background-color: var(--color-component);
-    width: 260px;
-    margin: 2rem 0;
+    width: 240px;
+    margin-bottom: 2rem;
     padding: .8rem;
     border-radius: .8rem;
     -webkit-border-radius: .8rem;
@@ -889,7 +901,7 @@ table th.align-left p {
     -ms-border-radius: .4rem;
     -o-border-radius: .4rem;
 }
-.article-container h2 span {
+.article-container h3 span {
     color: var(--color-text-variant);
     font-size: 1.8rem;
     font-weight: 500;

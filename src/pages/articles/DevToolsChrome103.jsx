@@ -40,7 +40,7 @@ const DevToolsChrome103 = () => {
   return (
     <section className='article-section'>
       <div className="article-container">
-        <NavLink to="/Blog" className='btn'><IoIosArrowBack /></NavLink>
+        <NavLink to="/Blog" className='btn btn-back'><IoIosArrowBack /></NavLink>
 
         <h1>Novedades en DevTools (Chrome 103)</h1>
         <time dateTime='2022-07-24'>Julio 24, 2022</time>
@@ -158,9 +158,9 @@ const DevToolsChrome103 = () => {
       </div>
       <aside className='recommended-articles'>
         {
-          ArticleData.map(({id, categoryimg, category, image, title, datetime, time, url}) => {
+          ArticleData.map(({categoryimg, category, image, title, date, url}) => {
             return (
-              <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
+              <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} date={date} url={url} />
             )
           })
         }

@@ -29,9 +29,9 @@ const Structure = () => {
       </div>
       <aside className='recommended-articles'>
         {
-          ArticleData.map(({categoryimg, category, image, title, datetime, time, url}) => {
+          ArticleData.map(({categoryimg, category, image, title, date, url}) => {
             return (
-              <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} datetime={datetime} time={time} url={url} />
+              <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} date={date} url={url} />
             )
           })
         }
