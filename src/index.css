@@ -908,8 +908,8 @@ table th.align-left p {
 }
 /* BOOK */
 .recommended-articles {
-    padding: 0 0 0 2rem;
-    border-left: 1.5px solid var(--color-component-variant1);
+    padding: 0 0 6rem 2rem;
+    border-left: 2px solid var(--color-component-variant1);
     display: grid;
     align-content: flex-start;
     grid-auto-flow: row;
@@ -1140,7 +1140,7 @@ footer {
     grid-auto-flow: column;
     justify-content: space-between;
     align-items: center;
-    border-top: 1.5px solid var(--color-component-variant1);
+    border-top: 2px solid var(--color-component-variant1);
 }
 /* ____________ FOOTER _____________ */
 /* ____________ MEDIA QUERIES _____________ */
@@ -1155,7 +1155,7 @@ footer {
     .recommended-articles {
         padding: 8rem 0;
         border-left: none;
-        border-top: 1.5px solid var(--color-component-variant1);
+        border-top: 2px solid var(--color-component-variant1);
         grid-template-columns: repeat(auto-fill, minmax(26rem, 31.6rem));
     }
     .aboutInfo {
