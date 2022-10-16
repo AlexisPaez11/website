@@ -30,11 +30,11 @@ img::selection {
     --color-text-variant: #a9adc1;
     --transition: all .5s ease;
     
-    /* --color-bg: #0d1117;
+    --color-bg: #0d1117;
     --color-primary: #00cbff;
     --color-component: #212933;
     --color-component-variant1: #1b212a;
-    --color-component-variant2: #2E3039; */
+    --color-component-variant2: #2E3039;
 }
 html {
     font-size: 62.5%;
