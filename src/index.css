@@ -21,11 +21,11 @@ img::selection {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 :root {
-    --color-bg: #1F2028;
+    /* --color-bg: #1F2028;
     --color-primary: #00cbff;
     --color-component: #2E3039;
     --color-component-variant1: #262830;
-    --color-component-variant2: #43454c;
+    --color-component-variant2: #43454c; */
     --color-text: #FFF;
     --color-text-variant: #a9adc1;
     --transition: all .5s ease;
