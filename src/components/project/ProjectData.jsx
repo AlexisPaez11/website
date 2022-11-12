@@ -14,9 +14,9 @@ const ProjectData = [
   {
     image: TwitterClone,
     title: 'Twitter Clone',
-    technologies: [<SiHtml5 />, <SiCss3 />],
-    github: 'https://github.com/AlexisPaez11/Twitter',
-    demo: 'https://alexispaez11.github.io/Twitter/',
+    technologies: [<SiReact />, <SiCss3 />],
+    github: 'https://github.com/AlexisPaez11/Twitter-Clone',
+    demo: 'https://twitter-clone-alexispaez11.vercel.app/',
   },
   {
     image: CarRental,
