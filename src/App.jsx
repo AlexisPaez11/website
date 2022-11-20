@@ -17,6 +17,7 @@ import MacBookAirM2review from './pages/articles/MacBookAirM2review'
 import MejoresRatonesGaming2022 from './pages/articles/MejoresRatonesGaming2022'
 import MejoresLibrosDesarrolladores from './pages/articles/MejoresLibrosDesarrolladores'
 import ColeccionRecursosTailwind from './pages/articles/ColeccionRecursosTailwind'
+import FuncionesJavaScript from './pages/articles/FuncionesJavaScript'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path='/Blog/MejoresRatonesGaming2022' element={<MejoresRatonesGaming2022 />} />
         <Route path='/Blog/MejoresLibrosDesarrolladores' element={<MejoresLibrosDesarrolladores />} />
         <Route path='/Blog/ColeccionRecursosTailwind' element={<ColeccionRecursosTailwind />} />
+        <Route path='/Blog/FuncionesJavaScript' element={<FuncionesJavaScript />} />
       </Routes>
       
       <Footer />

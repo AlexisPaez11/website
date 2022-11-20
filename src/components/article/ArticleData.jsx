@@ -2,6 +2,8 @@ import { HiCode } from 'react-icons/hi'
 import { IoGitNetworkSharp } from 'react-icons/io5'
 import DevToolsChrome from '../../assets/blog-assets/devtools.webp'
 import HTML from '../../assets/blog-assets/html.webp'
+import React from '../../assets/blog-assets/react.webp'
+import JavaScript from '../../assets/blog-assets/javascript.webp'
 import MacBookAirM2 from '../../assets/blog-assets/macbook-air-m2.webp'
 import MejoresRatonesGaming2022 from '../../assets/blog-assets/mejores-ratones-gaming-2022.webp'
 import MejoresLibrosDesarrolladores from '../../assets/blog-assets/libros-desarrolladores/libros-desarrolladores.webp'
@@ -11,6 +13,14 @@ import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recurs
 // import React from '../../assets/blog-assets/react.webp'
 
 const ArticleData = [
+    {
+    categoryimg: <HiCode />,
+    category: 'Desarrollo Web',
+    image: JavaScript,
+    title: '4 Formas de escribir una función en JavaScript',
+    date:'Noviembre 20, 2022',
+    url: 'FuncionesJavaScript',
+    },
     {
     categoryimg: <HiCode />,
     category: 'Desarrollo Web',

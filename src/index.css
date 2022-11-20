@@ -762,6 +762,19 @@ time {
     font-weight: 500;
     margin-bottom: 1rem;
 }
+.article-container .marked {
+    background-color: var(--color-component-variant1);
+    padding: .4rem .8rem;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+}
+.article-container .comment {
+    color: var(--color-text-variant);
+    opacity: 20%;
+}
 .article-container ul {
     padding-left: 1.4rem;
     margin-bottom: 2rem;
