@@ -9,7 +9,7 @@ import { HiViewGridAdd } from 'react-icons/hi' // SeeMore
 const Articles = () => {
   return (
     <section className='h-articles'>
-      <div className="projects-top">
+      <div className="articles-top">
         <h2>BLOG</h2>
       </div>
 

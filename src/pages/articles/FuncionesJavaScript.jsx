@@ -49,7 +49,7 @@ const FuncionesJavaScript = () => {
 
         <br/><br/><br/>
         <h3>Función declarada</h3>
-        <p>Es la forma más popular de escribir una función y a la que estaremos más acostumbrados, ya que son iguales a las que usamos en otros lenguajes de programación</p>
+        <p>Es la forma más popular de escribir una función y a la que estaremos más acostumbrados, ya que son iguales a las que usamos en otros lenguajes de programación.</p>
         <pre>
         <div className='lenguaje'><SiJavascript /></div>
           <code>
@@ -61,7 +61,7 @@ const FuncionesJavaScript = () => {
 
         <br/><br/><br/>
         <h3>Función expresada</h3>
-        <p>Esta forma consiste  en guardar funciones dentro de variables para posteriormente ejecutar la variable que la contiene</p>
+        <p>Esta forma consiste  en guardar funciones dentro de variables para posteriormente ejecutar la variable que la contiene.</p>
         <pre>
         <div className='lenguaje'><SiJavascript /></div>
           <code>

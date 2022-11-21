@@ -3,7 +3,9 @@ import { IoGitNetworkSharp } from 'react-icons/io5'
 import DevToolsChrome from '../../assets/blog-assets/devtools.webp'
 import HTML from '../../assets/blog-assets/html.webp'
 import React from '../../assets/blog-assets/react.webp'
-import JavaScript from '../../assets/blog-assets/javascript.webp'
+// import JavaScript from '../../assets/blog-assets/javascript.webp'
+import FuncionesJS from '../../assets/blog-assets/funciones-js.webp'
+import MetodosJS from '../../assets/blog-assets/ejemplos-metodos-js.webp'
 import MacBookAirM2 from '../../assets/blog-assets/macbook-air-m2.webp'
 import MejoresRatonesGaming2022 from '../../assets/blog-assets/mejores-ratones-gaming-2022.webp'
 import MejoresLibrosDesarrolladores from '../../assets/blog-assets/libros-desarrolladores/libros-desarrolladores.webp'
@@ -16,7 +18,15 @@ const ArticleData = [
     {
     categoryimg: <HiCode />,
     category: 'Desarrollo Web',
-    image: JavaScript,
+    image: MetodosJS,
+    title: 'Métodos de un array en JavaScript',
+    date:'Noviembre 21, 2022',
+    url: 'MetodosArrayJavaScript',
+    },
+    {
+    categoryimg: <HiCode />,
+    category: 'Desarrollo Web',
+    image: FuncionesJS,
     title: '4 Formas de escribir una función en JavaScript',
     date:'Noviembre 20, 2022',
     url: 'FuncionesJavaScript',
