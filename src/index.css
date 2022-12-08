@@ -690,16 +690,14 @@ time {
 
 /* ____________ ARTICLE PAGE _____________ */
 .article-section {
-    padding: 0 2rem 0 6rem;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
+    max-width: 80rem;
+    margin: 0 auto;
 }
 .article-container {
-    max-width: 88.133rem;
-    padding-bottom: 6rem;
-    padding-inline: 0 2rem;
+    padding: 2 0 6rem 0;
     transition: var(--transition);
     -webkit-transition: var(--transition);
     -moz-transition: var(--transition);
@@ -707,7 +705,7 @@ time {
     -o-transition: var(--transition);
 }
 .article-container .btn {
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     transition: var(--transition);
     -webkit-transition: var(--transition);
     -moz-transition: var(--transition);
@@ -942,14 +940,14 @@ table th.align-left p {
 }
 /* BOOK */
 .recommended-articles {
-    padding: 0 0 6rem 2rem;
-    border-left: 2px solid var(--color-component-variant1);
+    padding: 4rem 0;
     display: grid;
     align-content: flex-start;
     grid-auto-flow: row;
     justify-content: left;
-    grid-template-columns: 31.6rem;
     gap: 2rem;
+    border-top: 2px solid var(--color-component-variant1);
+    grid-template-columns: repeat(auto-fill, minmax(26rem, 31.6rem));
 }
 /* ____________ ARTICLE PAGE _____________ */
 /* ____________ ABOUT ME _____________ */
@@ -1184,16 +1182,6 @@ footer {
     }
     .article-section {
         padding: 0 6rem;
-        flex-direction: column;
-    }
-    .article-container {
-        padding: 2rem 0;
-    }
-    .recommended-articles {
-        padding: 8rem 0;
-        border-left: none;
-        border-top: 2px solid var(--color-component-variant1);
-        grid-template-columns: repeat(auto-fill, minmax(26rem, 31.6rem));
     }
     .aboutInfo {
         flex-direction: column;
