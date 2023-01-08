@@ -23,9 +23,12 @@ const Skills = () => {
           <div className="skills">
             <span className="tool">VSCode</span>
             <span>Git</span>
-            <span>Wordpress</span>
+            <span>GitHub</span>
+            <span>NPM</span>
+            {/* <span>Wordpress</span> */}
             <span>Figma</span>
             <span>Photoshop</span>
+            <span>Notion</span>
           </div>
       </div>
     </div>
