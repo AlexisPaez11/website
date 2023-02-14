@@ -1,6 +1,6 @@
 import React from 'react'
 import CTA from '../components/CTA'
-import AboutMe from '../components/about/AboutMe.jsx'
+import AboutMe from '../components/about/AboutMe'
 import Profile from '../assets/alexispaez.png'
 import Contact from '../components/Contact'
 
