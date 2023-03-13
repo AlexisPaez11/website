@@ -2,6 +2,7 @@ import React from 'react'
 import CTA from '../components/CTA'
 import AboutMe from '../components/about/AboutMe'
 import Profile from '../assets/alexispaez.png'
+import Workspace from '../components/Workspace'
 import Contact from '../components/Contact'
 
 const About = () => {
@@ -26,6 +27,8 @@ const About = () => {
 
         <hr />
         <AboutMe />
+        
+        <Workspace/>
 
         <hr />
         <Contact />
