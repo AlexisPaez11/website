@@ -1229,8 +1229,11 @@ footer {
     .scroll-to-top.scrollToTopButton {
         right: 2rem;
     }
-    section, .header-section {
+    section, .header-section, .about .aboutMe-section, .about .workspace-section {
         padding: 8rem 2rem;
+    }
+    .about .workspace-section{
+        padding: 0rem 2rem 8rem 2rem;
     }
     .aboutInfo {
         padding: 0 2rem;
