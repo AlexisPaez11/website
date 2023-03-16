@@ -1,8 +1,10 @@
-import { HiCode } from 'react-icons/hi'
-import { IoGitNetworkSharp } from 'react-icons/io5'
+// import { HiCode } from 'react-icons/hi'
+// import { IoGitNetworkSharp } from 'react-icons/io5'
+// import { SiJavascript } from 'react-icons/si'
+
 import DevToolsChrome from '../../assets/blog-assets/devtools.webp'
 import HTML from '../../assets/blog-assets/html.webp'
-import React from '../../assets/blog-assets/react.webp'
+// import React from '../../assets/blog-assets/react.webp'
 // import JavaScript from '../../assets/blog-assets/javascript.webp'
 import FuncionesJS from '../../assets/blog-assets/funciones-js.webp'
 import MetodosJS from '../../assets/blog-assets/ejemplos-metodos-js.webp'
@@ -16,23 +18,21 @@ import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recurs
 
 const ArticleData = [
     {
-    categoryimg: <HiCode />,
-    category: 'Desarrollo Web',
+    // categoryimg: <SiJavascript />,
+    category: 'JavaScript',
     image: MetodosJS,
     title: 'Métodos de un array en JavaScript',
     date:'Noviembre 21, 2022',
     url: 'MetodosArrayJavaScript',
     },
     {
-    categoryimg: <HiCode />,
-    category: 'Desarrollo Web',
+    category: 'JavaScript',
     image: FuncionesJS,
     title: '4 Formas de escribir una función en JavaScript',
     date:'Noviembre 20, 2022',
     url: 'FuncionesJavaScript',
     },
     {
-    categoryimg: <HiCode />,
     category: 'Desarrollo Web',
     image: ColeccionRecursosTailwind,
     title: 'Colección de recursos para Tailwind',
@@ -40,7 +40,6 @@ const ArticleData = [
     url: 'ColeccionRecursosTailwind',
     },
     {
-    categoryimg: <HiCode />,
     category: 'Desarrollo Web',
     image: MejoresLibrosDesarrolladores,
     title: 'Mejores libros para desarrolladores',
@@ -48,7 +47,6 @@ const ArticleData = [
     url: 'MejoresLibrosDesarrolladores',
     },
     {
-    categoryimg: <IoGitNetworkSharp />,
     category: 'Tecnología',
     image: MejoresRatonesGaming2022,
     title: 'Los mejores ratones gaming 2022',
@@ -56,7 +54,6 @@ const ArticleData = [
     url: 'MejoresRatonesGaming2022',
     },
     {
-    categoryimg: <IoGitNetworkSharp />,
     category: 'Tecnología',
     image: MacBookAirM2,
     title: 'MacBook Air M2 review',
@@ -64,7 +61,6 @@ const ArticleData = [
     url: 'MacBookAirM2review',
     },
     {
-    categoryimg: <HiCode />,
     category: 'Desarrollo Web',
     image: HTML,
     title: 'Etiquetas HTML esenciales que debes conocer',
@@ -72,7 +68,6 @@ const ArticleData = [
     url: 'EtiquetasHtmlEsenciales',
     },
     {
-    categoryimg: <HiCode />,
     category: 'Desarrollo Web',
     image: DevToolsChrome,
     title: 'Novedades en DevTools (Chrome 103)',
