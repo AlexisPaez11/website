@@ -705,7 +705,7 @@ time {
     -o-transition: var(--transition);
 }
 .article-container .btn {
-    margin: 2rem 0;
+    margin-bottom: 2rem;
     transition: var(--transition);
     -webkit-transition: var(--transition);
     -moz-transition: var(--transition);
@@ -716,6 +716,7 @@ time {
     background-color: var(--color-component-variant1);
 }
 .article-container .btn-back {
+    margin: 2rem 0;
     width: 4rem;
     height: 4rem;
     padding: .8rem;

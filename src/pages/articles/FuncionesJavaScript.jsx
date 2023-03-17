@@ -32,14 +32,14 @@ const FuncionesJavaScript = () => {
 <h1>4 Formas de escribir una función en JavaScript</h1>
 <time dateTime='2022-11-20'>Noviembre 20, 2022</time>
 
-<BR /><BR />
+<BR/><BR/>
 <p>En programación, cuando nuestro código se va haciendo cada vez más grande, necesitaremos buscar una forma de organizarlo y prepararnos para reutilizarlo y no repetir innecesariamente las mismas tareas. Para eso, un recurso muy útil son las funciones.</p>
 
-<BR />
+<BR/>
 <h2>¿Qué es una función?</h2>
 <p>Las funciones nos permiten agrupar líneas de código como tarea con una nombre, para que, posteriormente, podamos hacer referencia a ese nombre para realizar todo lo que se agrupe en dicha tarea.</p>
 
-<BR />
+<BR/>
 <h3>Función declarada</h3>
 <p>Es la forma más popular de escribir una función y a la que estaremos más acostumbrados, ya que son iguales a las que usamos en otros lenguajes de programación.</p>
 <pre><div className='lenguaje'><SiJavascript /></div><code>
@@ -50,7 +50,7 @@ const FuncionesJavaScript = () => {
 }
 </code></pre>
 
-<BR />
+<BR/>
 <h3>Función expresada</h3>
 <p>Esta forma consiste  en guardar funciones dentro de variables para posteriormente ejecutar la variable que la contiene.</p>
 <pre>
@@ -62,7 +62,7 @@ const FuncionesJavaScript = () => {
 }
 </code></pre>
         
-<BR />
+<BR/>
 <h3>Arrow function</h3>
 <p>Son una alternativa más simple que las funciones tradicionales. Además de tener diferentes comportamientos en diferentes situaciones. La sintaxis varía dependiendo de lo que haga la función o los datos que obtiene.</p>
 <h4>Sintaxis:</h4>
@@ -73,7 +73,7 @@ const FuncionesJavaScript = () => {
 function (a) {
 	return a + 2;
 }`}
-<BR2 />
+<BR2/>
 <span className='comment'>{'//'} Arrow function</span>
 {`
 (a) => {
@@ -82,7 +82,7 @@ function (a) {
 `}
 </code></pre>
         
-<BR />
+<BR/>
 <h3>Arrow function <span>Expresión</span></h3>
 <pre><div className='lenguaje'><SiJavascript /></div><code>
 {
@@ -92,7 +92,7 @@ function (a) {
 }
 </code></pre>
         
-<BR />
+<BR/>
 <h3>Arrow function <span>Retorno implícito</span></h3>
 <pre><div className='lenguaje'><SiJavascript /></div><code>
 {

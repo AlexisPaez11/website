@@ -8,8 +8,6 @@ import HTML from '../../assets/blog-assets/html.webp'
 // import JavaScript from '../../assets/blog-assets/javascript.webp'
 import FuncionesJS from '../../assets/blog-assets/funciones-js.webp'
 import MetodosJS from '../../assets/blog-assets/ejemplos-metodos-js.webp'
-import MacBookAirM2 from '../../assets/blog-assets/macbook-air-m2.webp'
-import MejoresRatonesGaming2022 from '../../assets/blog-assets/mejores-ratones-gaming-2022.webp'
 import MejoresLibrosDesarrolladores from '../../assets/blog-assets/libros-desarrolladores/libros-desarrolladores.webp'
 import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recursos-tailwind/resource-tailwind.webp'
 // import CSS from '../../assets/blog-assets/css.webp'
@@ -32,42 +30,28 @@ const ArticleData = [
     url: 'FuncionesJavaScript',
     },
     {
-    category: 'Desarrollo Web',
+    category: 'Tailwind',
     image: ColeccionRecursosTailwind,
     title: 'Colección de recursos para Tailwind',
     date:'Septiembre 07, 2022',
     url: 'ColeccionRecursosTailwind',
     },
     {
-    category: 'Desarrollo Web',
+    category: 'Herramientas',
     image: MejoresLibrosDesarrolladores,
     title: 'Mejores libros para desarrolladores',
     date:'Septiembre 06, 2022',
     url: 'MejoresLibrosDesarrolladores',
     },
     {
-    category: 'Tecnología',
-    image: MejoresRatonesGaming2022,
-    title: 'Los mejores ratones gaming 2022',
-    date:'Agosto 18, 2022',
-    url: 'MejoresRatonesGaming2022',
-    },
-    {
-    category: 'Tecnología',
-    image: MacBookAirM2,
-    title: 'MacBook Air M2 review',
-    date:'Agosto 14, 2022',
-    url: 'MacBookAirM2review',
-    },
-    {
-    category: 'Desarrollo Web',
+    category: 'HTML',
     image: HTML,
     title: 'Etiquetas HTML esenciales que debes conocer',
     date:'Julio 25, 2022',
     url: 'EtiquetasHtmlEsenciales',
     },
     {
-    category: 'Desarrollo Web',
+    category: 'Herramientas',
     image: DevToolsChrome,
     title: 'Novedades en DevTools (Chrome 103)',
     date:'Julio 24, 2022',
