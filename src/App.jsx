@@ -18,7 +18,7 @@ import MejoresRatonesGaming2022 from './pages/articles/MejoresRatonesGaming2022'
 import MejoresLibrosDesarrolladores from './pages/articles/MejoresLibrosDesarrolladores'
 import ColeccionRecursosTailwind from './pages/articles/ColeccionRecursosTailwind'
 import FuncionesJavaScript from './pages/articles/FuncionesJavaScript'
-import MetodosArrayJavaScript from './pages/articles/MetodosArrayJavaScript.jsx'
+import JavaScript from './pages/articles/MetodosArrayJavaScript.jsx'
 
 function App() {
   return (
@@ -43,7 +43,7 @@ function App() {
         <Route path='/Blog/MejoresLibrosDesarrolladores' element={<MejoresLibrosDesarrolladores />} />
         <Route path='/Blog/ColeccionRecursosTailwind' element={<ColeccionRecursosTailwind />} />
         <Route path='/Blog/FuncionesJavaScript' element={<FuncionesJavaScript />} />
-        <Route path='/Blog/MetodosArrayJavaScript' element={<MetodosArrayJavaScript />} />
+        <Route path='/Blog/MetodosArrayJavaScript' element={<JavaScript />} />
       </Routes>
       
       <Footer />

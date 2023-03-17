@@ -17,11 +17,11 @@ const Blog = () => {
   // Search
   
   // Filter
-  const [ category, setCategory] = useState('JavaScript')
+  const [ category, setCategory] = useState('Todos')
   const [ filteredArticle, setFilteredArticle ] = useState([])
 
   useEffect( () => {
-    category === 'all' ? setFilteredArticle(ArticleData) : setFilteredArticle(ArticleData.filter( Article => Article.category === category))
+    category === 'Todos' ? setFilteredArticle(ArticleData) : setFilteredArticle(ArticleData.filter( Article => Article.category === category))
   }, [category])
   // Filter
 
@@ -33,6 +33,7 @@ const Blog = () => {
     </div>
 
     <div className="category-buttons">
+      <FilterButton name='Todos' handleSetCategory={setCategory} categoryActive={ category === 'Todos' ? true : false} />
       <FilterButton name='JavaScript' handleSetCategory={setCategory} categoryActive={ category === 'JavaScript' ? true : false} />
       <FilterButton name='Tecnología' handleSetCategory={setCategory} categoryActive={ category === 'Tecnología' ? true : false} />
     </div>

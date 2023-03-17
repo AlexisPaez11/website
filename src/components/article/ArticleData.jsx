@@ -18,7 +18,6 @@ import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recurs
 
 const ArticleData = [
     {
-    // categoryimg: <SiJavascript />,
     category: 'JavaScript',
     image: MetodosJS,
     title: 'Métodos de un array en JavaScript',

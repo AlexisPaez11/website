@@ -1,42 +1,47 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import Article from '../../components/article/Article'
+import Back from '../../components/article/Back'
+import BR from '../../components/article/Br'
 
-import { IoIosArrowBack } from 'react-icons/io' // Back
-import { HiCode } from 'react-icons/hi' // CategoryDev
-import { IoGitNetworkSharp } from 'react-icons/io5' // CategoryTech
+// Lenguaje Icon
+import { SiJavascript } from 'react-icons/si'
 
+// Article Image
+// import XX from '../../assets/blog-assets/'
+// import XX  from '../../assets/blog-assets/'
+
+// Recommended Article
 const ArticleData = [
 
 ]
 
 const Structure = () => {
   return (
-    <section className='article-section'>
-      <div className="article-container">
-        <NavLink to="/Blog" className='btn'><IoIosArrowBack /></NavLink>
+  <section className='article-section'>
+    <div className="article-container">
+      <Back/>
+        
+<h1></h1>
+<time></time>
 
-        <h1>Title</h1>
-        <time dateTime='2022-07-25'>Date</time>
+<BR /><BR />
+<></>
 
-        <br/><br/><br/>
-        <br/><br/><br/>
-        <p></p>
+<BR />
+<></>
 
-        <br/><br/><br/>
-        <h2> </h2>
-        <p></p>
-      </div>
-      <aside className='recommended-articles'>
-        {
-          ArticleData.map(({categoryimg, category, image, title, date, url}) => {
-            return (
-              <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} date={date} url={url} />
-            )
-          })
-        }
-      </aside>
-    </section>
+    </div>
+    <aside className='recommended-articles'>
+    {
+      ArticleData.map(({image, title, date, url}) => {
+        return (
+          <Article key={url} image={image} title={title} date={date} url={url} />
+        )
+      })
+    }
+    </aside>
+  </section>
   )
 }
 
