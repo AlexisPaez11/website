@@ -567,7 +567,7 @@ time {
     cursor: pointer;
 }
 .h-articles .swiper-button-next, .h-articles .swiper-button-prev {
-    height: 31.74rem;
+    height: 27.4rem;
 }
 .swiper-button-next {
     background: linear-gradient(270deg, var(--color-bg) 60%, transparent 100%);
