@@ -4,7 +4,8 @@ import { IoIosArrowBack } from 'react-icons/io' // Back
 
 const Back = () => {
   return (
-    <NavLink to="/Blog" className='btn btn-back'><IoIosArrowBack /></NavLink>
+    <NavLink to="javascript:history.back()" className='btn btn-back'><IoIosArrowBack /></NavLink>
+    // <NavLink to="/Blog" className='btn btn-back'><IoIosArrowBack /></NavLink>
   )
 }
 
