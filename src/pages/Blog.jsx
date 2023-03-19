@@ -35,7 +35,7 @@ const Blog = () => {
     <div className="category-buttons">
       <FilterButton name='Todos' handleSetCategory={setCategory} categoryActive={ category === 'Todos' ? true : false} />
       <FilterButton name='HTML' handleSetCategory={setCategory} categoryActive={ category === 'HTML' ? true : false} />
-      <FilterButton name='CSS' handleSetCategory={setCategory} categoryActive={ category === 'CSS' ? true : false} />
+      {/* <FilterButton name='CSS' handleSetCategory={setCategory} categoryActive={ category === 'CSS' ? true : false} /> */}
       <FilterButton name='Tailwind' handleSetCategory={setCategory} categoryActive={ category === 'Tailwind' ? true : false} />
       <FilterButton name='JavaScript' handleSetCategory={setCategory} categoryActive={ category === 'JavaScript' ? true : false} />
       <FilterButton name='Herramientas' handleSetCategory={setCategory} categoryActive={ category === 'Herramientas' ? true : false} />

@@ -1,12 +1,10 @@
 import React from 'react'
-// import { NavLink } from "react-router-dom";
 import Article from '../../components/article/Article'
 import Back from '../../components/article/Back'
 import BR from '../../components/article/Br'
-import BR2 from '../../components/article/BrCode'
+// import BR2 from '../../components/article/BrCode'
 
 import TailwindDocumentation from '../../assets/blog-assets/coleccion-recursos-tailwind/tailwind-documentation.webp'
-
 import TailwindRefactorinUI from '../../assets/blog-assets/coleccion-recursos-tailwind/refactoringui.webp'
 import TailwindHeroIcons from '../../assets/blog-assets/coleccion-recursos-tailwind/heroicons.webp'
 import TailwindHeroPatterns from '../../assets/blog-assets/coleccion-recursos-tailwind/heropatterns.webp'
@@ -189,18 +187,19 @@ const ColeccionRecursosTailwind = () => {
   <a href="https://github.com/michelegera/tailwindcss-open-template/" class="btn" target="_blank" rel="noreferrer">REPOSITORIO</a>
   <a href="https://open.michelegera.dev/#" class="btn" target="_blank" rel="noreferrer">VISITAR SITIO</a>
 </div>
+<BR/>
 
-</div>
-      <aside className='recommended-articles'>
-        {
-          ArticleData.map(({categoryimg, category, image, title, date, url}) => {
-            return (
-              <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} date={date} url={url} />
-            )
-          })
-        }
-      </aside>
-    </section>
+    </div>
+    <aside className='recommended-articles'>
+      {
+        ArticleData.map(({image, title, date, url}) => {
+          return (
+            <Article key={url} image={image} title={title} date={date} url={url} />
+          )
+        })
+      }
+    </aside>
+  </section>
   )
 }
 

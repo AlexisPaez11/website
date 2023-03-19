@@ -1,5 +1,4 @@
 import React from 'react'
-// import { NavLink } from "react-router-dom";
 import Article from '../../components/article/Article'
 import Back from '../../components/article/Back'
 import BR from '../../components/article/Br'
@@ -14,13 +13,13 @@ import MetodosJS from '../../assets/blog-assets/ejemplos-metodos-js.webp'
 
 // Recommended Article
 const ArticleData = [
-  {
-    category: 'JavaScript',
-    image: MetodosJS,
-    title: 'Métodos de un array en JavaScript',
-    date:'Noviembre 21, 2022',
-    url: 'MetodosArrayJavaScript',
-    },
+{
+  category: 'JavaScript',
+  image: MetodosJS,
+  title: 'Métodos de un array en JavaScript',
+  date:'Noviembre 21, 2022',
+  url: 'MetodosArrayJavaScript',
+},
 ]
 
 const FuncionesJavaScript = () => {
@@ -69,10 +68,11 @@ const FuncionesJavaScript = () => {
 <p>Se elimina la palabra <span className='marked'>function</span> y se le agrega una flecha <span className='marked'>{'=>'}</span> entre el argumento y el corchete.</p>
 <pre><div className='lenguaje'><SiJavascript /></div><code>
 <span className='comment'>{'//'} Functión tradicional</span>
-{`
-function (a) {
+{
+`function (a) {
 	return a + 2;
-}`}
+}`
+}
 <BR2/>
 <span className='comment'>{'//'} Arrow function</span>
 {`
@@ -99,14 +99,14 @@ function (a) {
 `const sumar = (n1, n2) => n1 + n2;`
 }
 </code></pre>
+<BR/>
 
     </div>
-
     <aside className='recommended-articles'>
       {
-        ArticleData.map(({categoryimg, category, image, title, date, url}) => {
+        ArticleData.map(({image, title, date, url}) => {
           return (
-            <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} date={date} url={url} />
+            <Article key={url} image={image} title={title} date={date} url={url} />
           )
         })
       }

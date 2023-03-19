@@ -3,6 +3,7 @@ import React from 'react'
 import Article from '../../components/article/Article'
 import Back from '../../components/article/Back'
 import BR from '../../components/article/Br'
+// import BR2 from '../../components/article/BrCode'
 
 // Lenguaje Icon
 import { SiJavascript } from 'react-icons/si'
