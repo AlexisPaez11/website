@@ -17,7 +17,8 @@ const Workspace = () => {
           
       <div className='workspace-container'>
         <h3>Periféricos</h3>
-          <p><b>Monitor:</b> Samsung Odyssey G5 27p Curvo, WQHD 2K, 165Hz, 1ms</p>
+          <p><b>Monitor:</b> Samsung Odyssey G5 27" Curvo, QHD, 165Hz, 1ms</p>
+          <p><b>Monitor:</b> Samsung 24", FHD, 75Hz, 5ms</p>
           <p><b>Teclado:</b> Logitech G PRO</p>
           <p><b>Mouse:</b> Logitech G903 Lightspeed Wireless</p>
           <p><b>Mousepad:</b> Redragon Flick XL</p>
