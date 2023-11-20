@@ -5,7 +5,7 @@ import ScrollToTop from './ScrollToTop'
 import Home from './pages/Home'
 import Blog from './pages/Blog'
 import Projects from './pages/Projects'
-import About from './pages/About'
+import Workspace from './pages/Workspace'
 import Footer from './components/Footer'
 
 import ScrollToTopButton from "react-scroll-to-top";
@@ -29,7 +29,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/Projects' element={<Projects />} />
         <Route path='/Blog' element={<Blog />} />
-        <Route path='/About' element={<About />} />
+        <Route path='/Workspace' element={<Workspace />} />
         <Route path='*' element={<Home />} />
         {/* <Route path='*' element={<404 />} /> */}
         {/* <Route path='/Blog/:url' element={<ArticlePage />} /> */}
