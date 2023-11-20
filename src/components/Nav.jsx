@@ -22,7 +22,7 @@ function Nav() {
           <NavLink to="/Blog">Blog</NavLink></li>
         
         <li className="nav-menu-item">
-          <NavLink to="/Workspace">Workspace</NavLink></li>
+          <NavLink to="/About">Sobre mí</NavLink></li>
       </ul>
 
       <button className='menu' onClick={() => setIsMobile(!isMobile)}>

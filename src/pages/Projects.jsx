@@ -6,8 +6,7 @@ const Projects = () => {
   return (
     <div className='project-section'>
       <div className='project-container'>
-
-      {
+        {
         ProjectData.map(({id, image, title, technologies, github, demo}) => {
           return (
             <Project key={id} image={image} title={title} technologies={technologies} github={github} demo={demo} />
