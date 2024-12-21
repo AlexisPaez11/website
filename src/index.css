@@ -411,7 +411,6 @@ nav .nav-menu-item a {
 
 
 
-
 hr {
     margin: 0 auto;
     width: calc(100% - 12rem);
@@ -912,12 +911,12 @@ table th.align-left {
 /* BOOK */
 .recommended-articles {
     padding: 4rem 0;
-    display: grid;
-    align-content: flex-start;
-    grid-auto-flow: row;
-    justify-content: left;
+    display: flex;
+    flex-direction: row;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fill, minmax(26rem, 31.6rem));
+}
+.recommended-articles .article {
+    max-width: 80rem
 }
 /* ____________ ARTICLE PAGE _____________ */
 /* ____________ ABOUT ME _____________ */

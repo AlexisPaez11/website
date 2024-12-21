@@ -68,8 +68,8 @@ const FuncionesJavaScript = () => {
 <p>Se elimina la palabra <span className='marked'>function</span> y se le agrega una flecha <span className='marked'>{'=>'}</span> entre el argumento y el corchete.</p>
 <pre><div className='lenguaje'><SiJavascript /></div><code>
 <span className='comment'>{'//'} Functión tradicional</span>
-{
-`function (a) {
+{`
+function (a) {
 	return a + 2;
 }`
 }
