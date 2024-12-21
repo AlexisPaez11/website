@@ -628,7 +628,7 @@ nav .nav-menu-item a.active:focus:after {
     flex-direction: column;
     align-self: center;
     gap: 1.6rem;
-    max-width: 800px;
+    max-width: 80rem;
 }
 .search-container {
     display: flex;
@@ -697,7 +697,7 @@ nav .nav-menu-item a.active:focus:after {
     -o-border-radius: .4rem;
 }
 .article img {
-    width: 320px;
+    width: 32rem;
 }
 .article .article-description {
     display: flex;
@@ -834,7 +834,6 @@ nav .nav-menu-item a.active:focus:after {
     -ms-border-radius: .8rem;
     -o-border-radius: .8rem;
 }
-
 /* CODE */
 pre {
     margin: 2rem 0;
@@ -915,8 +914,8 @@ table th.align-left {
     flex-direction: row;
     gap: 2rem;
 }
-.recommended-articles .article {
-    max-width: 80rem
+.recommended-articles a {
+    width: 100%;
 }
 /* ____________ ARTICLE PAGE _____________ */
 /* ____________ ABOUT ME _____________ */
