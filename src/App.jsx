@@ -41,8 +41,9 @@ function App() {
         <Route path='/Blog/FuncionesJavaScript' element={<FuncionesJavaScript />} />
         <Route path='/Blog/MetodosArrayJavaScript' element={<JavaScript />} />
       </Routes>
-      
-      <Footer />
+
+      {/* <hr />   */}
+      {/* <Footer /> */}
     </div>
   )
 }

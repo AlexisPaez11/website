@@ -9,8 +9,8 @@ export default class Project extends Component {
           <h3 className='project-title'>{this.props.title}</h3>
           <div className="project-technologies">{this.props.technologies}</div>
           <div className="project-buttons">
-            <a href={this.props.github} className='btn btn-variant' target='_blank' rel='noreferrer'>REPOSITORIO</a>
-            <a href={this.props.demo} className='btn btn-primary' target='_blank' rel='noreferrer'>VISITAR SITIO</a>
+            <a href={this.props.github} className='btn btn-variant' target='_blank' rel='noreferrer'>Repositorio</a>
+            <a href={this.props.demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Visitar Sitio</a>
           </div>
         </div>
       </article>

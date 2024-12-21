@@ -19,7 +19,7 @@ const About = () => {
           <div className="aboutInfo-container">
             <div className="biography">
               <h1>Alexis Paez</h1>
-              <p>Desarrollador Front End / Diseñador UI</p>
+              <h2>Desarrollador Front End / Diseñador UI</h2>
             </div>
             <CTA />
           </div>
@@ -28,7 +28,6 @@ const About = () => {
         <hr />
         <AboutMe />
         
-        <hr />
         <Workspace/>
 
         <hr />

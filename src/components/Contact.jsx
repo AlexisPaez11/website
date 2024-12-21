@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Socials from './Socials'
 
 const Contact = () => {
   const[name, setName] = useState('')
@@ -7,10 +8,12 @@ const Contact = () => {
   
   return (
     <section id='contact' className='contact-section'>
-      <div className='contact-container'>
-        <h2>CONTACTO</h2>
-        <p>Estoy interesado en oportunidades freelance y la posibilidad de unirme a un equipo de desarrolladores. Sin embargo, si tienes otra petición o pregunta, no dudes en utilizar el formulario.</p>
-        
+        <div className='contact-container'>
+          <h3>CONTACTO</h3>
+          <p>Estoy interesado en oportunidades freelance y la posibilidad de unirme a un equipo de desarrolladores. Sin embargo, si tienes otra petición o pregunta, no dudes en utilizar el formulario.</p>
+          <Socials />
+        </div>
+          
         <form id="form" className='form' action="https://formspree.io/f/mknyekbv" method="POST">
           <div className="name">
             <label htmlFor='name'>Nombre</label>
@@ -27,9 +30,8 @@ const Contact = () => {
             <textarea id="massage" name="message" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Deja tu mensaje.." required aria-labelledby="mesagge"></textarea>
           </div>
 
-          <button className='submit btn btn-primary' type="submit" aria-labelledby="submit">ENVIAR MENSAJE</button>
+          <button className='submit btn btn-primary' type="submit" aria-labelledby="submit">Enviar</button>
         </form>
-      </div>
     </section>
   )
 }
