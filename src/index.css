@@ -1216,6 +1216,9 @@ footer {
         grid-template-columns: auto;
         gap: 6rem;
     }
+    .contact-section form {
+        column-gap: 1rem;
+    }
     .submit {
         width: max-content;
         grid-area: submit;
@@ -1244,39 +1247,16 @@ footer {
     .aboutInfo-container {
         gap: 2rem;
     }
-    .contact-container form {
-        grid-template-areas:
-        "name"
-        "email"
-        "message"
-        "submit";
-        grid-template-columns: 1fr;
-        grid-template-rows: 7.4rem 7.4rem 16.8rem 4rem;
-        flex-direction: column;
-        gap: 2rem;
-        overflow-x: hidden;
-    }
 }
 @media screen and (max-width: 600px) {
-    .scroll-to-top.scrollToTopButton {
-        right: 2rem;
-    }
     section, .header-section, .about .aboutMe-section, .about .workspace-section {
         padding: 8rem 2rem;
     }
-    .about .workspace-section{
-        padding: 8rem 2rem 6rem 2rem;
+    hr {
+        width: calc(100% - 4rem);
     }
-    .aboutInfo {
-        padding: 0 2rem;
-    }
-    .projects-section, .blog-section {
-        padding-inline: 2rem;
-        transition: var(--transition);
-        -webkit-transition: var(--transition);
-        -moz-transition: var(--transition);
-        -ms-transition: var(--transition);
-        -o-transition: var(--transition);
+    .scroll-to-top.scrollToTopButton {
+        right: 2rem;
     }
     /* NAV */
     nav {
@@ -1360,8 +1340,13 @@ footer {
         fill: var(--color-text);
     }
     /* NAV */
-    hr {
-        width: calc(100% - 4rem);
+    .projects-section, .blog-section {
+        padding-inline: 2rem;
+        transition: var(--transition);
+        -webkit-transition: var(--transition);
+        -moz-transition: var(--transition);
+        -ms-transition: var(--transition);
+        -o-transition: var(--transition);
     }
     .search-container {
         min-width: 26rem;
@@ -1369,6 +1354,9 @@ footer {
     }
     .article-section {
         padding: 0 2rem;
+    }
+    .article-container h1 {
+        font-size: 3.2rem;
     }
     .article-container > img, .article-container > .video {
         min-width: 26rem;
@@ -1382,6 +1370,12 @@ footer {
     }
     .frontpage {
         border-radius: 0rem;
+    }
+    .aboutInfo {
+        padding: 0 2rem;
+    }
+    .about .workspace-section{
+        padding: 8rem 2rem 6rem 2rem;
     }
     .workspace-container div div img {
         max-width: none;
