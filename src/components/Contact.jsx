@@ -22,7 +22,7 @@ const Contact = () => {
 
           <div className='email'>
             <label htmlFor='email'>Email</label>
-            <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="persona@ejemplo.com" required aria-labelledby="email"/>
+            <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Ejemplo@mail.com" required aria-labelledby="email"/>
           </div>
 
           <div className="message">

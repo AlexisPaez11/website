@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=League+Spartan:wght@100..900&display=swap');
 
 @font-face {
     font-family: 'swiper-icons';
@@ -93,12 +93,15 @@ li {
     font-size: 4rem;
 }
 nav .nav-menu-item a,
-.header-container h1::before, .header-container h2::before,
-.header-container h1 .last-letter::after, .header-container h2 .last-letter::after,
 .project-title,
 .search-container .search, .article-title, .article-container p, .article-container li, table th .align-left p, 
 label, textarea, input  {
     font-size: 2.1rem;
+    font-weight: 500;
+}
+.header-container h1::before, .header-container h2::before,
+.header-container h1 .last-letter::after, .header-container h2 .last-letter::after {
+    font-size: 2.8rem;
     font-weight: 500;
 }
 .project-buttons .btn svg, .project-buttons .btn-primary svg {
@@ -581,7 +584,7 @@ nav .nav-menu-item a.active:focus:after {
     font-family: 'La Belle Aurore', cursive;
     content: "<h1>";
     position: absolute;
-    top: -4rem;
+    top: -5rem;
 }
 .header-container h2::before {
     content: "<p>";
@@ -1218,10 +1221,10 @@ footer {
     }
     .contact-section form {
         grid-template-areas:
-        "name name"
-        "email email"
+        "name email"
         "message message"
         "submit submit";
+        row-gap: 1rem;
     }
     .submit {
         width: max-content;
