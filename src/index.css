@@ -1221,13 +1221,13 @@ footer {
         padding: 0 2rem;
     }
     .article-title {
-        font-size: 3.2rem;
+        font-size: 2.8rem;
         font-weight: 600;
         line-height: 3.2rem;
         color: var(--color-text);
     }
     .article-container h1 {
-        font-size: 3.2rem;
+        font-size: 4rem;
     }
     .article-container > img, .article-container > .video {
         min-width: 26rem;
