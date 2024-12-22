@@ -1189,6 +1189,9 @@ footer {
 /* ____________ FOOTER _____________ */
 /* ____________ MEDIA QUERIES _____________ */
 @media screen and (max-width: 1400px) {
+    .frontpage {
+        border-radius: 0rem;
+    }
     .workspace-section {
         padding: 8rem 6rem 6rem 6rem;
         display: grid;
@@ -1347,6 +1350,9 @@ footer {
         fill: var(--color-text);
     }
     /* NAV */
+    .header-container h2::before {
+        top: -4.5rem;
+    }
     .projects-section, .blog-section {
         padding-inline: 2rem;
         transition: var(--transition);
@@ -1354,6 +1360,9 @@ footer {
         -moz-transition: var(--transition);
         -ms-transition: var(--transition);
         -o-transition: var(--transition);
+    }
+    .project {
+        width: 100%;
     }
     .search-container {
         min-width: 26rem;
@@ -1375,9 +1384,6 @@ footer {
     table th.align-left {
         width: 100%;
     }
-    .frontpage {
-        border-radius: 0rem;
-    }
     .aboutInfo {
         padding: 0 2rem;
     }
@@ -1390,14 +1396,22 @@ footer {
     }
     footer {
         padding: 0 2rem;
+    }    
+
+}
+@media screen and (max-width: 400px) {
+    .contact-section form {
+        grid-template-areas:
+        "name email"
+        "message message"
+        "submit submit";
+        row-gap: 1rem;
     }
 }
 @media screen and (max-width: 365px) {
     .cta {
         grid-auto-flow: row;
         grid-template-columns: 1fr;
-    }
-    .project-section, .blog-section {
-        padding: 8rem 2rem;
+        width: 100%;
     }
 }
