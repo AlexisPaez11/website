@@ -1217,7 +1217,11 @@ footer {
         gap: 6rem;
     }
     .contact-section form {
-        column-gap: 1rem;
+        grid-template-areas:
+        "name name"
+        "email email"
+        "message message"
+        "submit submit";
     }
     .submit {
         width: max-content;
