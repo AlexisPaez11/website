@@ -11,7 +11,7 @@ export default class Article extends Component {
           <article id={this.props.id} className='article'>
             <img src={this.props.image} alt={this.props.title} />
             <div className='article-description'>
-              <h3 className='article-title'>{this.props.title}</h3>
+              <h2 className='article-title'>{this.props.title}</h2>
               <time>{this.props.date}</time>
             </div>
           </article>

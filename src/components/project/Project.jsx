@@ -9,7 +9,7 @@ export default class Project extends Component {
         <img src={this.props.image} alt={this.props.title} />
         <div className="project-container">
           <div className="project-description">
-            <h3 className='project-title'>{this.props.title}</h3>
+            <h2 className='project-title'>{this.props.title}</h2>
             <div className="project-technologies">{this.props.technologies}</div>
           </div>
           <div className="project-buttons">
