@@ -101,6 +101,9 @@ label, textarea, input  {
     font-size: 2.1rem;
     font-weight: 500;
 }
+.project-buttons .btn svg, .project-buttons .btn-primary svg {
+    font-size: 2.4rem;
+}
 /* ARTICLE */
 .category-buttons .category-btn {
     font-size: 1.8rem;
@@ -234,13 +237,9 @@ nav .nav-menu-logo a.active:focus:after {
 .header-container h2 .last-letter::after {
     color: var(--color-component-variant2);
 }
-
 .search-container .search {
     background-color: var(--color-component);
     color: var(--color-text-variant);
-}
-.category-btn {
-    font-family: 'League Spartan', sans-serif;
 }
 .category-btn:hover {
     background-color: var(--color-component-variant1);
@@ -601,7 +600,7 @@ nav .nav-menu-item a.active:focus:after {
 /* ____________ HEADER _____________ */
 /* ____________ PROJECT/BLOG PAGE _____________ */
 
-.project-section, .blog-section {
+.projects-section, .blog-section {
     display: flex;
     padding: 6rem 6rem 8rem;
     transition: var(--transition);
@@ -610,13 +609,13 @@ nav .nav-menu-item a.active:focus:after {
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
 }
-.project-section {
+.projects-section {
     flex-direction: row;
 }
 .blog-section {
     flex-direction: column;
 }
-.project-container {
+.projects-container {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -706,34 +705,51 @@ nav .nav-menu-item a.active:focus:after {
 }
 /* ____________ PROJECT/ARTICLE CARD _____________ */
 /* ____________ PROJECT CARD _____________ */
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
 .project .project-description {
     display: flex;
     flex-direction: column;
     gap: .8rem;
+    width: calc(100% - 10.8rem);
 }
 .project-technologies {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: left;
     gap: .8rem;
 }
-.project-technologies svg {
-    padding: .8rem;
-    width: 4rem;
+.project-technologies p {
+    font-size: 1.6rem;
     height: 4rem;
+    padding: .8rem 1.6rem;
     border-radius: .8rem;
     -webkit-border-radius: .8rem;
     -moz-border-radius: .8rem;
     -ms-border-radius: .8rem;
     -o-border-radius: .8rem;
+    background-color: var(--color-component-variant1);
 }
 .project-buttons {
     display: flex;
     flex-direction: row;
     gap: .8rem;
+    width: 8.8rem;
+    margin-top: 2.756rem;
 }
-.project-buttons .btn {
-    width: 100%;
+.project-buttons .btn, .project-buttons .btn-primary {
+    width: 4rem;
+    height: 4rem;
+    padding: .8rem;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
 }
 /* ____________ PROJECT CARD _____________ */
 /* ____________ ARTICLE PAGE _____________ */
@@ -936,11 +952,11 @@ table th.align-left {
 }
 /* SECTION 1 */
 .aboutInfo {
-    margin: 0;
-    padding: 0 6rem;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    gap: 2rem;
+    padding: 0 6rem;
     transform: translateY(-5rem);
     -webkit-transform: translateY(-5rem);
     -moz-transform: translateY(-5rem);
@@ -950,7 +966,6 @@ table th.align-left {
 .aboutInfo img {
     width: 16.0rem;
     height: 16.0rem;
-    margin-right: 2rem;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1041,7 +1056,8 @@ table th.align-left {
 .contact-section {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: calc( 50% - 2rem) 50% ;
+    gap: 2rem;
 }
 .contact-container {
     display: grid;
@@ -1115,7 +1131,6 @@ table th.align-left {
     align-content: flex-start;
 }
 .submit {
-    /* width: max-content; */
     grid-area: submit;
 }
 .contact-container form label {
@@ -1188,9 +1203,28 @@ footer {
         flex-direction: column;
         align-items: flex-start;
     }
-    .aboutInfo img {
-        margin-right: 0;
-        margin-bottom: 2rem;
+    .aboutInfo-container {
+        align-items: flex-end;
+        transform: translateY(0rem);
+        -webkit-transform: translateY(0rem);
+        -moz-transform: translateY(0rem);
+        -ms-transform: translateY(0rem);
+        -o-transform: translateY(0rem);
+    }
+    .contact-section {
+        grid-auto-flow: row;
+        grid-template-columns: auto;
+        gap: 6rem;
+    }
+    .submit {
+        width: max-content;
+        grid-area: submit;
+    }
+}
+@media screen and (max-width: 1060px) {
+    .projects-container {
+        display: flex;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 800px) {
@@ -1206,6 +1240,9 @@ footer {
     }
     .project img, .article img {
         width: 100%;
+    }
+    .aboutInfo-container {
+        gap: 2rem;
     }
     .contact-container form {
         grid-template-areas:
@@ -1233,7 +1270,7 @@ footer {
     .aboutInfo {
         padding: 0 2rem;
     }
-    .project-section, .blog-section {
+    .projects-section, .blog-section {
         padding-inline: 2rem;
         transition: var(--transition);
         -webkit-transition: var(--transition);
@@ -1326,10 +1363,6 @@ footer {
     hr {
         width: calc(100% - 4rem);
     }
-    .project-buttons {
-        flex-direction: column;
-        grid-template-columns: 1fr;
-    }
     .search-container {
         min-width: 26rem;
         width: 100%;
@@ -1347,14 +1380,8 @@ footer {
     table th.align-left {
         width: 100%;
     }
-    .recommended-articles {
-        justify-content: center;
-    }
     .frontpage {
         border-radius: 0rem;
-    }
-    .aboutInfo-container .biography {
-        margin-right: 0rem;
     }
     .workspace-container div div img {
         max-width: none;

@@ -4,8 +4,8 @@ import Project from '../components/project/Project'
 
 const Projects = () => {
   return (
-    <div className='project-section'>
-      <div className='project-container'>
+    <div className='projects-section'>
+      <div className='projects-container'>
         {
         ProjectData.map(({id, image, title, technologies, github, demo}) => {
           return (
