@@ -241,7 +241,11 @@ nav .nav-menu-logo a:focus:after,
 nav .nav-menu-logo a.active:after,
 nav .nav-menu-logo a.active:hover:after,
 nav .nav-menu-logo a.active:focus:after {
-    background-color: transparent;
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
 }
 /* MENU ICON */
 .menu {
@@ -328,6 +332,7 @@ nav .nav-menu-logo a.active:focus:after {
     flex-direction: column;
     align-self: center;
     gap: 1.6rem;
+    min-width: 80rem;
     max-width: 80rem;
 }
 .search-container {
@@ -356,7 +361,7 @@ nav .nav-menu-logo a.active:focus:after {
     -ms-border-radius: .8rem;
     -o-border-radius: .8rem;
 }
-.category-buttons {
+.category-buttons, .blog-buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -366,7 +371,10 @@ nav .nav-menu-logo a.active:focus:after {
     max-width: 80rem;
     margin: 0 0 4rem;
 }
-.category-btn {
+.blog-buttons {
+    margin: 0 0 2rem;
+}
+.category-btn, .blog-btn {
     font-size: 1.8rem;
     font-weight: 600;
 } 
@@ -374,8 +382,9 @@ nav .nav-menu-logo a.active:focus:after {
     color: var(--color-text);
     background-color: var(--color-primary);
 }
-.category-btn:hover {
-    border: 1px solid var(--color-component-variant1);
+.blog-btn.active {
+    color: var(--color-text);
+    background-color: var(--color-primary);
 }
 /* ____________ PROJECT/ARTICLE CARD _____________ */
 .project, .article {
@@ -505,6 +514,7 @@ nav .nav-menu-logo a.active:focus:after {
     -o-transition: var(--transition);
 }
 .article-container .btn {
+    font-size: 1.8rem;
     background-color: var(--color-component-variant1);
     margin-bottom: 2rem;
     transition: var(--transition);
@@ -520,7 +530,7 @@ nav .nav-menu-logo a.active:focus:after {
     fill: var(--color-text);
 }
 .article-container .btn-back {
-    margin: 2rem 0;
+    margin: 2rem 0 4rem;
     width: 4rem;
     height: 4rem;
     padding: .8rem;
@@ -612,10 +622,10 @@ table th .align-left p {
 .article-container li {
     margin-bottom: 1rem;
 }
-.article-container > img, .article-container > .video {
+.article-container img, .article-container .video {
     min-width: 44rem;
     max-width: 64rem;
-    margin: 2rem 0;
+    margin: 2rem 0 4rem;
     border-radius: .8rem;
     -webkit-border-radius: .8rem;
     -moz-border-radius: .8rem;
@@ -720,24 +730,17 @@ table th.align-left {
 }
 /* BOOK */
 .book {
-    background-color: var(--color-component);
-    width: 240px;
-    margin-bottom: 2rem;
-    padding: .8rem;
+    width: 300px;
+    margin-bottom: 4rem;
+}
+.book img {
+    min-width: auto;
+    max-width: auto;
     border-radius: .8rem;
     -webkit-border-radius: .8rem;
     -moz-border-radius: .8rem;
     -ms-border-radius: .8rem;
     -o-border-radius: .8rem;
-}
-.book img {
-    width: 100%;
-    height: 100%;
-    border-radius: .4rem;
-    -webkit-border-radius: .4rem;
-    -moz-border-radius: .4rem;
-    -ms-border-radius: .4rem;
-    -o-border-radius: .4rem;
 }
 .recommended-articles {
     border-top: 2px solid var(--color-component-variant1);
@@ -878,7 +881,7 @@ table th.align-left {
 .workspace-container ul {
     display: flex;
     flex-direction: column;
-    gap: .4rem;
+    gap: .6rem;
 }
 .workspace-container ul li {
     color: var(--color-text-variant);
@@ -1085,6 +1088,9 @@ footer {
     }
 }
 @media screen and (max-width: 1060px) {
+    .blog-container {
+        min-width: auto;
+    }
     .projects-container {
         display: flex;
         justify-content: center;

@@ -66,7 +66,6 @@ const Workspace = () => {
           <li>Kit: Bridge Hue / Dimmer Switch Hue</li>
           <li>Focos de luces LED: x4 Philips Hue</li>
           <li>Tira de luces LED: Philips Hue Lightstrip</li>
-          <li>Barra de luz: BenQ ScreenBar Halo</li>
         </ul>
       </div>
       <div className='workspace-container'>

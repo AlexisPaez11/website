@@ -7,7 +7,7 @@ const ProjectData = [
   {
     image: YoutubeClone,
     title: 'Youtube Clone',
-    technologies: [<p>HTML</p>,<p>CSS</p>,<p>JavaScript</p>],
+    technologies: [<p>HTML</p>,<p>CSS</p>,<p>JavaScript</p>,<p>JavaScript</p>,<p>JavaScript</p>],
     github: 'https://github.com/AlexisPaez11/Youtube',
     demo: 'https://alexispaez11.github.io/Youtube/',
   },
