@@ -55,7 +55,7 @@ function App() {
       </Routes>
 
       {/* <hr />   */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
