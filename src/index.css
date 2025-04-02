@@ -1113,9 +1113,15 @@ footer {
     .aboutInfo-container {
         gap: 2rem;
     }
+    .about .aboutMe-section {
+        padding: 6rem 6rem 3rem;
+    }
+    .about .workspace-section {
+        padding: 3rem 6rem 6rem;
+    }
 }
 @media screen and (max-width: 600px) {
-    section, .header-section, .about .aboutMe-section, .about .workspace-section {
+    section, .header-section  {
         padding: 8rem 2rem;
     }
     hr {
@@ -1249,8 +1255,11 @@ footer {
     .aboutInfo {
         padding: 0 2rem;
     }
-    .about .workspace-section{
-        padding: 8rem 2rem 6rem 2rem;
+    .about .aboutMe-section {
+        padding: 6rem 2rem 3rem;
+    }
+    .about .workspace-section {
+        padding: 3rem 2rem 6rem;
     }
     .workspace-container div div img {
         max-width: none;
