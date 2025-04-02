@@ -54,7 +54,7 @@ function App() {
         <Route path='/Blog/MacBookAirM2review' element={<MacbookAirM2review />} />
       </Routes>
 
-      <hr />  
+      {/* <hr />   */}
       <Footer />
     </div>
   )
