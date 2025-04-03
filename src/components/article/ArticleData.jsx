@@ -9,49 +9,88 @@ import MetodosJS from '../../assets/blog-assets/ejemplos-metodos-js.webp'
 import MejoresLibrosDesarrolladores from '../../assets/blog-assets/libros-desarrolladores/libros-desarrolladores.webp'
 import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recursos-tailwind/resource-tailwind.webp'
 
-const ArticleDataDeveloper = [
+import MejoresRatonesGaming2022 from '../../assets/blog-assets/mejores-ratones-gaming-2022.webp'
+
+import MacBookAirM2review from '../../assets/blog-assets/macbook-air-m2-review/img2.webp'
+import IOS181 from '../../assets/blog-assets/ios181/ios181.webp'
+
+const ArticleData = [
     {
-    category: 'JavaScript',
+    field: 'Desarrollo',
+    category: ["JavaScript"],
     image: MetodosJS,
     title: 'Métodos de un array en JavaScript',
     date:'Noviembre 21, 2022',
     url: 'MetodosArrayJavaScript',
     },
     {
-    category: 'JavaScript',
+    field: 'Desarrollo',
+    category: ["JavaScript"],
     image: FuncionesJS,
     title: '4 Formas de escribir una función en JavaScript',
     date:'Noviembre 20, 2022',
     url: 'FuncionesJavaScript',
     },
     {
-    category: 'Tailwind',
+    field: 'Desarrollo',
+    category: ["Tailwind"],
     image: ColeccionRecursosTailwind,
     title: 'Colección de recursos para Tailwind',
     date:'Septiembre 07, 2022',
     url: 'ColeccionRecursosTailwind',
     },
     {
-    category: 'Herramientas',
+    field: 'Desarrollo',
+    category: ["Herramientas"],
     image: MejoresLibrosDesarrolladores,
     title: 'Mejores libros para desarrolladores',
     date:'Septiembre 06, 2022',
     url: 'MejoresLibrosDesarrolladores',
     },
     {
-    category: 'HTML',
-    image: HTML,
-    title: 'Etiquetas HTML esenciales que debes conocer',
-    date:'Julio 25, 2022',
-    url: 'EtiquetasHtmlEsenciales',
+        field: 'Desarrollo',
+        category: ["HTML"],
+        image: HTML,
+        title: 'Etiquetas HTML esenciales que debes conocer',
+        date:'Julio 25, 2022',
+        url: 'EtiquetasHtmlEsenciales',
     },
     {
-    category: 'Herramientas',
+    field: 'Desarrollo',
+    category: ["Herramientas"],
     image: DevToolsChrome,
     title: 'Novedades en DevTools (Chrome 103)',
     date:'Julio 24, 2022',
     url: 'DevToolsChrome103',
     },
+    
+// TECNOLOGIA
+    {
+    field: 'Tecnología',
+    category: ['Perifericos'],
+    image: MejoresRatonesGaming2022,
+    title: 'Mejores Ratones Gaming 2022',
+    date:'Agosto 18, 2022',
+    url: 'MejoresRatonesGaming2022',
+    },
+
+// APPLE
+    // {
+    // field: 'Apple',
+    // category: ['iOS'],
+    // image: IOS181,
+    // title: 'Novedades de iOS 18.1',
+    // date:'Abril 2, 2025',
+    // url: 'NovedadesiOS18.1',
+    // },
+    {
+    field: 'Apple',
+    category: ['MacBook'],
+    image: MacBookAirM2review,
+    title: 'MacBook Air M2 review',
+    date:'Agosto 14, 2022',
+    url: 'MacBookAirM2review',
+    },
 ]
 
-export default ArticleDataDeveloper
+export default ArticleData

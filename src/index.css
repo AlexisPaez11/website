@@ -33,9 +33,13 @@ img::selection {
     --color-component-variant1: #1b212a;
     --color-component-variant2: #2E3039;
 }
+::-webkit-scrollbar {
+    display: none;
+  }
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 body {
     font-optical-sizing: auto;
@@ -44,6 +48,7 @@ body {
     font-style: normal;
     overflow-x: hidden;
     margin: 0 auto;
+    -ms-overflow-style: none;
 }
 h1, h2, h3, h4, h5, h6, p {
     color: var(--color-text);
@@ -361,7 +366,7 @@ nav .nav-menu-logo a.active:focus:after {
     -ms-border-radius: .8rem;
     -o-border-radius: .8rem;
 }
-.category-buttons, .blog-buttons {
+.category-buttons, .field-buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -371,18 +376,14 @@ nav .nav-menu-logo a.active:focus:after {
     max-width: 80rem;
     margin: 0 0 4rem;
 }
-.blog-buttons {
+.field-buttons {
     margin: 0 0 2rem;
 }
-.category-btn, .blog-btn {
+.category-btn {
     font-size: 1.8rem;
     font-weight: 600;
 } 
 .category-btn.active {
-    color: var(--color-text);
-    background-color: var(--color-primary);
-}
-.blog-btn.active {
     color: var(--color-text);
     background-color: var(--color-primary);
 }
@@ -1053,7 +1054,7 @@ footer {
 }
 @media screen and (max-width: 1200px) {
     .scroll-to-top.scrollToTopButton {
-        right: 6rem;
+        right: .4rem;
     }
     .article-section {
         padding: 0 6rem;
@@ -1126,9 +1127,6 @@ footer {
     }
     hr {
         width: calc(100% - 4rem);
-    }
-    .scroll-to-top.scrollToTopButton {
-        right: 2rem;
     }
     /* NAV */
     nav {
@@ -1230,6 +1228,13 @@ footer {
         min-width: 26rem;
         width: 100%;
     }
+    .category-btn {
+        font-size: 1.6rem;
+    }
+    .blog-container, .projects-container {
+        padding: 0 2rem;
+        gap: 2rem;
+    } 
     .article-section {
         padding: 0 2rem;
     }
@@ -1267,7 +1272,7 @@ footer {
     }
     footer {
         padding: 0 2rem;
-    }    
+    }
 }
 @media screen and (max-width: 400px) {
     .contact-section form {

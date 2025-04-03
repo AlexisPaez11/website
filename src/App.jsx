@@ -3,9 +3,7 @@ import Nav from './components/Nav'
 import { Routes, Route } from 'react-router-dom'
 import ScrollToTop from './ScrollToTop'
 import Home from './pages/Home'
-import BlogDeveloper from './pages/BlogDeveloper.jsx'
-import BlogTech from './pages/BlogTech.jsx'
-import BlogApple from './pages/BlogApple.jsx'
+import BlogDeveloper from './pages/Blog.jsx'
 import Projects from './pages/Projects'
 import About from './pages/About.jsx'
 import Footer from './components/Footer'
@@ -35,8 +33,6 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/Projects' element={<Projects />} />
         <Route path='/Blog' element={<BlogDeveloper />} />
-        <Route path='/Blog/Tech' element={<BlogTech />} />
-        <Route path='/Blog/Apple' element={<BlogApple />} />
         <Route path='/About' element={<About />} />
         <Route path='*' element={<Home />} />
         {/* <Route path='*' element={<404 />} /> */}
