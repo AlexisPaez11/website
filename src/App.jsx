@@ -3,10 +3,11 @@ import Nav from './components/Nav'
 import { Routes, Route } from 'react-router-dom'
 import ScrollToTop from './ScrollToTop'
 import Home from './pages/Home'
-import BlogDeveloper from './pages/Blog.jsx'
+import Blog from './pages/Blog.jsx'
 import Projects from './pages/Projects'
 import About from './pages/About.jsx'
 import Footer from './components/Footer'
+import ArticlePage from "./ArticlePage.jsx";
 
 import ScrollToTopButton from "react-scroll-to-top";
 import { IoIosArrowUp } from 'react-icons/io'
@@ -32,11 +33,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Projects' element={<Projects />} />
-        <Route path='/Blog' element={<BlogDeveloper />} />
+        <Route path='/Blog' element={<Blog />} />
         <Route path='/About' element={<About />} />
         <Route path='*' element={<Home />} />
         {/* <Route path='*' element={<404 />} /> */}
-        {/* <Route path='/Blog/:url' element={<ArticlePage />} /> */}
 
         <Route path='/Blog/DevToolsChrome103' element={<DevToolsChrome103 />} />
         <Route path='/Blog/EtiquetasHtmlEsenciales' element={<EtiquetasHtmlEsenciales />} />
@@ -48,6 +48,8 @@ function App() {
         <Route path='/Blog/MejoresRatonesGaming2022' element={<MejoresRatonesGaming2022 />} />
 
         <Route path='/Blog/MacBookAirM2review' element={<MacbookAirM2review />} />
+
+        <Route path="/blog/:articleSlug" element={<ArticlePage />} />
       </Routes>
 
       {/* <hr />   */}

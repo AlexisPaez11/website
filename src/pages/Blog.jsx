@@ -81,8 +81,17 @@ const Blog = () => {
       <div className="blog-container">
         {filteredArticle
           .filter(article => search === "" || article.title.toLowerCase().includes(search.toLowerCase()))
-          .map(({ categoryimg, category, image, title, date, url }) => (
-            <Article key={url} categoryimg={categoryimg} category={category} image={image} title={title} date={date} url={url} />
+          .map(({ categoryimg, category, image, title, date, url, isMarkdown  }) => (
+            <Article 
+            key={url}
+            categoryimg={categoryimg}
+            category={category}
+            image={image}
+            title={title}
+            date={date}
+            url={url}
+            isMarkdown={isMarkdown}
+            />
           ))}
       </div>
     </div>

@@ -12,7 +12,7 @@ import ColeccionRecursosTailwind from '../../assets/blog-assets/coleccion-recurs
 import MejoresRatonesGaming2022 from '../../assets/blog-assets/mejores-ratones-gaming-2022.webp'
 
 import MacBookAirM2review from '../../assets/blog-assets/macbook-air-m2-review/img2.webp'
-import IOS181 from '../../assets/blog-assets/ios181/ios181.webp'
+import iOS184 from '../../assets/blog-assets/iOS184/iOS184.webp'
 
 const ArticleData = [
     {
@@ -75,14 +75,15 @@ const ArticleData = [
     },
 
 // APPLE
-    // {
-    // field: 'Apple',
-    // category: ['iOS'],
-    // image: IOS181,
-    // title: 'Novedades de iOS 18.1',
-    // date:'Abril 2, 2025',
-    // url: 'NovedadesiOS18.1',
-    // },
+    {
+    field: 'Apple',
+    category: ['iOS'],
+    image: iOS184,
+    title: 'Novedades de iOS 18.4',
+    date:'Abril 2, 2025',
+    url: 'NovedadesiOS184',
+    // isMarkdown: true,
+    },
     {
     field: 'Apple',
     category: ['MacBook'],
