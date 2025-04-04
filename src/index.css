@@ -634,7 +634,7 @@ table th .align-left p {
     margin-bottom: 1rem;
 }
 .article-container img, .article-container .video {
-    min-width: 44rem;
+    min-width: auto;
     max-width: 64rem;
     margin: 2rem 0 4rem;
     border-radius: .8rem;
