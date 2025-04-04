@@ -1,5 +1,3 @@
-import iOS184 from '../../assets/blog-assets/iOS184/iOS184.webp'
-
 const ArticleData = [
     {
     field: 'Desarrollo',
@@ -68,7 +66,6 @@ const ArticleData = [
     title: 'Novedades de iOS 18.4',
     date:'Abril 2, 2025',
     url: 'NovedadesiOS184',
-    // isMarkdown: true,
     },
     {
     field: 'Apple',
