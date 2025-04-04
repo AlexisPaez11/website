@@ -13,7 +13,7 @@ const FilterButton = ({ name, handleSetFilter, isActive }) => (
 const orderedCategories = {
   Desarrollo: ["JavaScript", "HTML", "Tailwind", "Herramientas"],
   Apple: ["MacBook"],
-  Tecnología: ["Perifericos"]
+  Tecnología: ["Periféricos"]
 };
 
 const Blog = () => {

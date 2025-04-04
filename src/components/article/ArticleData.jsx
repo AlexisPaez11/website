@@ -51,7 +51,7 @@ const ArticleData = [
 // TECNOLOGIA
     {
     field: 'Tecnología',
-    category: ['Perifericos'],
+    category: ['Periféricos'],
     image: '/assets/blog-assets/MejoresRatonesGaming2022/MejoresRatonesGaming2022.webp',
     title: 'Mejores Ratones Gaming 2022',
     date:'Agosto 18, 2022',
