@@ -1,7 +1,7 @@
 import { SiHtml5, SiCss3, SiJavascript, SiReact } from 'react-icons/si'
-import YoutubeClone from '../../assets/projects-assets/youtube-clone.webp'
-import TwitterClone from '../../assets/projects-assets/twitter-clone.webp'
-import CarRental from '../../assets/projects-assets/car-rental.webp'
+import YoutubeClone from '../../assets/projects-assets/YouTubeClone.webp'
+import TwitterClone from '../../assets/projects-assets/TwitterClone.webp'
+import CarRental from '../../assets/projects-assets/CarRental.webp'
 
 const ProjectData = [
   {

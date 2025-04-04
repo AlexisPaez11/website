@@ -1,0 +1,127 @@
+# Novedades en DevTools (Chrome 103)
+Julio 24, 2022
+
+<div class='espacio'/>
+
+## Capture eventos de doble clic y clic derecho en el panel Grabador
+El panel **Grabadora** ahora puede capturar eventos de doble clic y clic derecho.
+![](/assets/blog-assets/chrome-103/img1.png)
+En este <a href='' target='_blank' rel='noopener noreferrer'>ejemplo</a>, inicie una <a href='https://developer-chrome-com.translate.goog/docs/devtools/recorder/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es#record' target='_blank' rel='noopener noreferrer'>grabación</a> e intente realizar los siguientes pasos:
+- Haga doble clic en la tarjeta para ampliarla.
+- Haga clic derecho en la tarjeta y seleccione una acción del menú contextual.
+
+Para comprender cómo Recorder capturó estos eventos, expanda los pasos:
+- El doble clic se captura como type: doubleClick.
+- El evento de clic derecho se captura como type: clickpero con la buttonpropiedad establecida en secondary. El buttonvalor de un clic de ratón normal es primary.
+
+<div class='espacio'/>
+<hr/>
+<div class='espacio'/>
+
+## Nuevo modo de intervalo de tiempo e instantánea en el panel Lighthouse
+Ahora puede usar Lighthouse para medir el rendimiento de su sitio web más allá de la carga de la página.
+![](/assets/blog-assets/chrome-103/img2.png)
+El panel Lighthouse ahora admite 3 modos de medición de flujo de usuario:
+- <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://github.com/GoogleChrome/lighthouse/blob/master/docs/user-flows.md%23navigation' target='_blank' rel='noopener noreferrer'>Los informes de navegación</a> analizan la carga de una sola página. La navegación es el tipo de informe más común. Todos los informes de Lighthouse anteriores a la versión actual son informes de navegación.
+- <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://github.com/GoogleChrome/lighthouse/blob/master/docs/user-flows.md%23timespan' target='_blank' rel='noopener noreferrer'>Los informes de intervalos</a> de tiempo analizan un período de tiempo arbitrario, que normalmente contiene interacciones del usuario.
+- <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://github.com/GoogleChrome/lighthouse/blob/master/docs/user-flows.md%23snapshot' target='_blank' rel='noopener noreferrer'>Los informes de instantáneas</a> analizan la página en un estado particular, generalmente después de que el usuario haya interactuado con ella.
+
+Por ejemplo, midamos el rendimiento de agregar artículos al carrito en esta <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://coffee-cart.netlify.app/' target='_blank' rel='noopener noreferrer'>página de demostración.</a> Seleccione el modo Intervalo de tiempo y haga clic en Iniciar intervalo de tiempo. Desplácese y agregue algunos artículos al carrito. Una vez que haya terminado, haga clic en Finalizar intervalo de tiempo para generar un informe Lighthouse de las interacciones del usuario.
+![](/assets/blog-assets/chrome-103/img3.png)
+Consulte <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://github.com/GoogleChrome/lighthouse/blob/master/docs/user-flows.md' target='_blank' rel='noopener noreferrer'>Flujos de usuario en Lighthouse</a> para conocer los casos de uso únicos, los beneficios y las limitaciones de cada modo.
+
+<div class='espacio'/>
+<hr/>
+<div class='espacio'/>
+
+## Actualizaciones de Perspectivas de rendimiento
+### Control de zoom mejorado en el panel Performance Insights
+DevTools ahora se acercará según el cursor del mouse en lugar de la posición del cursor de reproducción. Con el último zoom basado en el cursor, puede mover el mouse a cualquier parte de la pista y <a href='https://developer-chrome-com.translate.goog/docs/devtools/performance-insights/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es#navigate' target='_blank' rel='noopener noreferrer'>acercar</a> el área deseada de inmediato.
+
+Consulte <a href='https://developer-chrome-com.translate.goog/docs/devtools/performance-insights/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es' target='_blank' rel='noopener noreferrer'>Perspectivas de rendimiento</a> para obtener información práctica y mejorar el rendimiento de su sitio web con el panel.
+
+<div class='espacio'/>
+<hr/>
+<div class='espacio'/>
+
+## Confirmar para eliminar una grabación de interpretación
+DevTools ahora muestra un cuadro de diálogo de confirmación antes <a href='https://developer-chrome-com.translate.goog/docs/devtools/performance-insights/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es#delete' target='_blank' rel='noopener noreferrer'>de eliminar una grabación de rendimiento</a>
+![](/assets/blog-assets/chrome-103/img4.png)
+
+<hr/>
+<div class='espacio'/>
+
+## Reordenar paneles en el panel Elementos
+Ahora puede reordenar los paneles en el panel elementos según sus preferencias.
+
+Por ejemplo, cuando abre DevTools en una pantalla estrecha, el panel  <a href='https://developer-chrome-com.translate.goog/docs/devtools/accessibility/reference/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es#pane' target='_blank' rel='noopener noreferrer'>Accesibilidad se oculta debajo del botón</a> mostrar más. Si depura problemas de accesibilidad con frecuencia, ahora puede arrastrar el panel al frente para facilitar el acceso.
+
+<div class='espacio'/>
+<hr/>
+<div class='espacio'/>
+
+## Elegir un color fuera del navegador
+DevTools ahora admite elegir un color fuera del navegador. Anteriormente, solo podía elegir un color dentro del navegador.
+
+En el panel Estilos, haga clic en cualquier vista previa de color para abrir un selector de color. Usa el cuentagotas para elegir el color de cualquier lugar.
+![](/assets/blog-assets/chrome-103/img5.png)
+
+<hr/>
+<div class='espacio'/>
+
+## Vista previa de valores en línea mejorada durante la depuración
+El depurador ahora muestra correctamente la vista previa de los valores en línea.
+
+En este ejemplo, la doublefunción tiene un parámetro de entrada ay una variable x. Coloque un punto de interrupción en la returnlínea y ejecute el código. La vista previa en línea muestra valores ay xcorrectamente. Anteriormente, el depurador no mostraba el valor xen la vista previa en línea.
+![](/assets/blog-assets/chrome-103/img6.png)
+
+<hr/>
+<div class='espacio'/>
+
+## Admite blobs grandes para autenticadores virtuales
+La pestaña <a href='https://developer-chrome-com.translate.goog/docs/devtools/webauthn/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es' target='_blank' rel='noopener noreferrer'>WebAuthn</a> ahora tiene la nueva casilla de verificación Admite blobs grandes para autenticadores virtuales.
+
+Esta casilla de verificación está desactivada de forma predeterminada. Puede habilitarlo solo para los autenticadores con ctap2protocolo que admita claves residentes.
+![](/assets/blog-assets/chrome-103/img7.png)
+
+<hr/>
+<div class='espacio'/>
+
+## Nuevos atajos de teclado en el panel Fuentes
+Dos nuevos métodos abreviados de teclado ahora están disponibles en el panel Fuentes:
+
+Alternar la barra lateral de navegación (izquierda) con Control / Command+ Shift+Y
+Alternar la barra lateral del depurador (derecha) con Control / Command+ Shift+H
+![](/assets/blog-assets/chrome-103/img8.png)
+
+<hr/>
+<div class='espacio'/>
+
+## Mejoras en los mapas de origen
+Anteriormente, los desarrolladores experimentaban fallas aleatorias durante:
+- Ejemplo de depuración con <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://codepen.io/' target='_blank' rel='noopener noreferrer'>Codepen</a>
+- Identificación de la ubicación de origen de los problemas de rendimiento en un ejemplo de <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://codepen.io/' target='_blank' rel='noopener noreferrer'>Codepen</a>
+- Falta la pestaña Componente cuando <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi' target='_blank' rel='noopener noreferrer'>React DevTools</a> está habilitado
+
+Aquí hay algunas correcciones en los mapas de origen para mejorar la experiencia general de depuración:
+- Asignación correcta entre ubicación y desplazamiento para scripts en línea y ubicación de origen
+- Usar información alternativa para la ubicación del texto del marco
+- Resuelva correctamente las URL relativas con la URL del marco
+
+<div class='espacio'/>
+## Descargar los canales de vista previa
+Considere usar Chrome <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://www.google.com/chrome/canary/' target='_blank' rel='noopener noreferrer'>Canary</a>, <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://www.google.com/chrome/dev/' target='_blank' rel='noopener noreferrer'>Dev</a> o <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://www.google.com/chrome/beta/' target='_blank' rel='noopener noreferrer'>Beta</a> como su navegador de desarrollo predeterminado. ¡Estos canales de vista previa le brindan acceso a las últimas funciones de DevTools, prueban API de plataforma web de vanguardia y encuentran problemas en su sitio antes que sus usuarios!
+
+<div class='espacio'/>
+## Ponerse en contacto con el equipo de Chrome DevTools
+Utilice las siguientes opciones para analizar las nuevas funciones y los cambios en la publicación, o cualquier otra cosa relacionada con DevTools.
+- Envíenos una sugerencia o comentario a través de crbug.com .
+- Reporte un problema de DevTools usando Más opciones Ayuda Reportar un problema de DevTools en DevTools.
+- Tuitee en <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://twitter.com/intent/tweet?text%3D@ChromeDevTools' target='_blank' rel='noopener noreferrer'>@ChromeDevTools.</a>
+- <a href='https://translate.google.com/website?sl=auto&tl=es&hl=es&u=https://goo.gle/devtools-youtube' target='_blank' rel='noopener noreferrer'>Deje comentarios en nuestros videos de YouTube</a> de Novedades de DevTools .
+
+<div class='espacio'/>
+## Novedades en herramientas de desarrollo
+Una lista de todo lo que se ha cubierto en la serie <a href='https://developer-chrome-com.translate.goog/tags/new-in-devtools/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es' target='_blank' rel='noopener noreferrer'>What's New In DevTools.</a>
+
+<div class='espacio'/>

@@ -1,12 +1,16 @@
-module.exports = function override(config, env) {
-    config.module.rules.push({
-      test: /\.mdx?$/,
-      use: [
-        {
-          loader: "@mdx-js/loader",
-          options: {}
-        }
-      ]
-    });
-    return config;
-  };
+const { override, addWebpackModuleRule } = require("customize-cra");
+
+module.exports = override(
+  addWebpackModuleRule({
+    test: /\.mdx?$/,
+    use: [
+      {
+        loader: "@mdx-js/loader",
+        options: {
+          remarkPlugins: [require("remark-gfm"), require("remark-directive")],
+          rehypePlugins: [require("rehype-attr")],
+        },
+      },
+    ],
+  })
+);

@@ -1,12 +1,26 @@
-import React from 'react'
-import { NavLink } from "react-router-dom";
-import { IoIosArrowBack } from 'react-icons/io' // Back
+import React from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import { IoIosArrowBack } from "react-icons/io";
 
 const Back = () => {
-  return (
-    <NavLink to="javascript:history.back()" className='btn btn-back'><IoIosArrowBack /></NavLink>
-    // <NavLink to="/Blog" className='btn btn-back'><IoIosArrowBack /></NavLink>
-  )
-}
+  const navigate = useNavigate();
+  const { state } = useLocation();
+  const { prevPath, prevField = "Desarrollo", prevCategory = "Todos" } = state || {};
 
-export default Back
+  const handleBack = () => {
+    navigate(prevPath || "/blog", {
+      state: {
+        prevField,
+        prevCategory
+      }
+    });
+  };
+
+  return (
+    <button onClick={handleBack} className="btn btn-back">
+      <IoIosArrowBack />
+    </button>
+  );
+};
+
+export default Back;

@@ -1,0 +1,81 @@
+import { SiJavascript } from '../../node_modules/react-icons/si'
+
+# 4 Formas de escribir una función en JavaScript
+Noviembre 20, 2022
+
+<div class='espacio'/>
+
+En programación, cuando nuestro código se va haciendo cada vez más grande, necesitaremos buscar una forma de organizarlo y prepararnos para reutilizarlo y no repetir innecesariamente las mismas tareas. Para eso, un recurso muy útil son las funciones.
+
+<div class='espacio'/>
+
+## ¿Qué es una función?
+Las funciones nos permiten agrupar líneas de código como tarea con una nombre, para que, posteriormente, podamos hacer referencia a ese nombre para realizar todo lo que se agrupe en dicha tarea.
+
+<div class='espacio'/>
+
+### Función declarada
+Es la forma más popular de escribir una función y a la que estaremos más acostumbrados, ya que son iguales a las que usamos en otros lenguajes de programación.
+<div class='lenguaje'><SiJavascript /></div>
+```js
+    function sumar (n1, n2) {
+        return n1 + n2;
+    }
+```
+
+<div class='espacio'/>
+<hr/>
+<div class='espacio'/>
+
+### Función expresada
+Esta forma consiste en guardar funciones dentro de variables para posteriormente ejecutar la variable que la contiene.
+<div class='lenguaje'><SiJavascript /></div>
+```js
+const sumar = function (n1, n2) {
+	return n1 + n2;
+}
+```
+
+<div class='espacio'/>
+<hr/>
+<div class='espacio'/>
+
+### Arrow function
+Son una alternativa más simple que las funciones tradicionales. Además de tener diferentes comportamientos en diferentes situaciones. La sintaxis varía dependiendo de lo que haga la función o los datos que obtiene.
+
+<div class='espacio'/>
+
+#### Sintaxis:
+Se elimina la palabra <span className='marked'>{'function'}</span> y se le agrega una flecha <span className='marked'>{'=>'}</span> entre el argumento y el corchete.
+<div class='lenguaje'><SiJavascript /></div>
+```js
+// Functión tradicional
+function (a) {
+	return a + 2;
+}
+
+// Arrow function
+(a) => {
+	return a + 2;
+}
+```
+
+<div class='espacio'/>
+
+### Arrow function <span>Expresión</span>
+<div class='lenguaje'><SiJavascript /></div>
+```js
+const sumar = (n1, n2) => {
+	return n1 + n2;
+}
+```
+
+<div class='espacio'/>
+
+### Arrow function <span>Retorno implícito</span>
+<div class='lenguaje'><SiJavascript /></div>
+```js
+const sumar = (n1, n2) => n1 + n2;
+```
+
+<div class='espacio'/>

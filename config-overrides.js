@@ -2,11 +2,14 @@ const { override, addWebpackModuleRule } = require("customize-cra");
 
 module.exports = override(
   addWebpackModuleRule({
-    test: /\.mdx$/,
+    test: /\.mdx?$/,
     use: [
       {
         loader: "@mdx-js/loader",
-        options: {}
+        options: {
+          remarkPlugins: [require("remark-gfm"), require("remark-directive")],
+          rehypePlugins: [require("rehype-attr")]
+        }
       }
     ]
   })

@@ -1,43 +1,42 @@
-import React, { useEffect, useState }  from 'react'
-import { NavLink } from "react-router-dom";
-import Article from '../components/article/Article'
-import ArticleData from '../components/article/ArticleData'
+import React, { useEffect, useState } from 'react';
+import { useLocation } from "react-router-dom";
+import Article from '../components/article/Article';
+import ArticleData from '../components/article/ArticleData';
 
-// Componente de botón reutilizable
-const FilterButton = ({ name, handleSetFilter, isActive }) => {
-  return (
-    <button className={`category-btn btn ${isActive ? "active" : ""}`} onClick={() => handleSetFilter(name)}>
-      {name.toUpperCase()}
-    </button>
-  );
-};
+// Componente reutilizable para los botones
+const FilterButton = ({ name, handleSetFilter, isActive }) => (
+  <button className={`category-btn btn ${isActive ? 'active' : ''}`} onClick={() => handleSetFilter(name)}>
+    {name.toUpperCase()}
+  </button>
+);
 
 const orderedCategories = {
-  Todos: ["Todos"],
   Desarrollo: ["JavaScript", "HTML", "Tailwind", "Herramientas"],
   Apple: ["MacBook"],
   Tecnología: ["Perifericos"]
 };
 
 const Blog = () => {
-  const [search, setSearch] = useState("");
-  const [field, setField] = useState("Desarrollo");
-  const [category, setCategory] = useState("Todos");
+  const location = useLocation();
+  
+  const [search, setSearch] = useState('');
+  const [field, setField] = useState(location.state?.prevField || 'Desarrollo');
+  const [category, setCategory] = useState(location.state?.prevCategory || 'Todos');
   const [filteredArticle, setFilteredArticle] = useState([]);
   const [availableCategories, setAvailableCategories] = useState([]);
 
+  // Combinamos la lógica de filtrado de artículos y categorías
   useEffect(() => {
-    let filteredData = ArticleData;
-    if (field !== "Todos") {
-      filteredData = filteredData.filter(article => article.field === field);
-    }
-    if (category !== "Todos") {
-      filteredData = filteredData.filter(article => article.category.includes(category));
-    }
-    setFilteredArticle(filteredData);
-  }, [field, category]);
+    // Filtrar artículos por campo y categoría
+    const filteredData = ArticleData.filter(article => {
+      const matchesField = field === "Todos" || article.field === field;
+      const matchesCategory = category === "Todos" || article.category.includes(category);
+      return matchesField && matchesCategory;
+    });
 
-  useEffect(() => {
+    setFilteredArticle(filteredData);
+
+    // Cargar categorías disponibles solo si el campo cambia
     if (field === "Todos") {
       setAvailableCategories([]);
     } else {
@@ -49,8 +48,12 @@ const Blog = () => {
       });
       setAvailableCategories(Array.from(categoriesInField));
     }
-    setCategory("Todos"); // Reiniciar la categoría al cambiar el campo
-  }, [field]);
+
+    // Restablecer la categoría si no es válida para el nuevo campo
+    if (!availableCategories.includes(category) && category !== "Todos") {
+      setCategory("Todos");
+    }
+  }, [field, category]);
 
   return (
     <div className="blog-section">
@@ -63,12 +66,19 @@ const Blog = () => {
         />
       </div>
 
+      {/* Filtro de campos */}
       <div className="field-buttons">
-        <FilterButton name="Desarrollo" handleSetFilter={setField} isActive={field === "Desarrollo"} />
-        <FilterButton name="Tecnología" handleSetFilter={setField} isActive={field === "Tecnología"} />
-        <FilterButton name="Apple" handleSetFilter={setField} isActive={field === "Apple"} />
+        {["Desarrollo", "Tecnología", "Apple"].map(fieldName => (
+          <FilterButton 
+            key={fieldName}
+            name={fieldName}
+            handleSetFilter={setField}
+            isActive={field === fieldName}
+          />
+        ))}
       </div>
 
+      {/* Filtro de categorías */}
       {field !== "Todos" && availableCategories.length > 0 && (
         <div className="category-buttons">
           <FilterButton name="Todos" handleSetFilter={setCategory} isActive={category === "Todos"} />
@@ -78,19 +88,19 @@ const Blog = () => {
         </div>
       )}
 
+      {/* Artículos filtrados */}
       <div className="blog-container">
         {filteredArticle
           .filter(article => search === "" || article.title.toLowerCase().includes(search.toLowerCase()))
-          .map(({ categoryimg, category, image, title, date, url, isMarkdown  }) => (
+          .map(({ url, image, title, date, field, category }) => (
             <Article 
-            key={url}
-            categoryimg={categoryimg}
-            category={category}
-            image={image}
-            title={title}
-            date={date}
-            url={url}
-            isMarkdown={isMarkdown}
+              key={url}
+              field={field}
+              category={category}
+              image={image}
+              title={title}
+              date={date}
+              url={url}
             />
           ))}
       </div>
