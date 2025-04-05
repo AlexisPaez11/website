@@ -553,11 +553,11 @@ time {
 }
 .article-container h3, .article-container h4 {
     font-size: 2.8rem;
-    line-height: 3.6rem;
+    line-height: 3.4rem;
 }
 .article-container h3 span {
     font-size: 2.1rem;
-    line-height: 2.1rem;
+    line-height: 2.8rem;
 }
 .article-container p,
 .article-container li,
