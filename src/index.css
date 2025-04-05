@@ -633,7 +633,7 @@ table th .align-left p {
 .article-container li {
     margin-bottom: 1rem;
 }
-.article-container img, .article-container .video {
+.article-container img, .article-container video {
     min-width: auto;
     max-width: 64rem;
     margin: 2rem 0 4rem;
@@ -643,10 +643,15 @@ table th .align-left p {
     -ms-border-radius: .8rem;
     -o-border-radius: .8rem;
 }
-.article-container .video {
-    position: relative;
-    padding-bottom: 56.25%;
-
+.article-container .image, .article-container .video {
+    min-width: auto;
+    max-width: 46rem;
+    margin: 2rem 0 4rem;
+    border-radius: .8rem;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
 }
 .article-container iframe {
     position: absolute;
@@ -743,7 +748,7 @@ table th.align-left {
 }
 /* BOOK */
 .book {
-    width: 300px;
+    width: 30rem;
     margin-bottom: 4rem;
 }
 .book img {

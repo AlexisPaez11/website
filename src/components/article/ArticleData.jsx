@@ -64,7 +64,7 @@ const ArticleData = [
     category: ['iOS'],
     image: '/assets/blog-assets/iOS184/iOS184.webp',
     title: 'Novedades de iOS 18.4',
-    date:'Abril 2, 2025',
+    date:'Abril 5, 2025',
     url: 'NovedadesiOS184',
     },
     {
