@@ -11,9 +11,9 @@ const FilterButton = ({ name, handleSetFilter, isActive }) => (
 );
 
 const orderedCategories = {
-  Desarrollo: ["JavaScript", "HTML", "Tailwind", "Herramientas"],
-  Apple: ["MacBook"],
-  Tecnología: ["Periféricos"]
+  Desarrollo: ['JavaScript', 'HTML', 'Tailwind', 'Herramientas'],
+  Apple: ['iPhone', 'MacBook', 'iOS', 'Apple Intelligence'],
+  Tecnología: ['Periféricos']
 };
 
 const Blog = () => {

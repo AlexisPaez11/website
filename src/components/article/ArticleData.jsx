@@ -49,6 +49,22 @@ const ArticleData = [
     },
     
 // TECNOLOGIA
+    // {
+    // field: 'Tecnología',
+    // category: ['Consolas'],
+    // image: '/assets/blog-assets/NintendoSwitch2/NintendoSwitch2.webp',
+    // title: 'Nintendo Switch 2 ya es oficial, y viene con todo',
+    // date:'Abril 14, 2025',
+    // url: 'NintendoSwitch2',
+    // },
+    // {
+    // field: 'Tecnología',
+    // category: ['Laptops'],
+    // image: '/assets/blog-assets/ZenbookA14/ZenbookA14.webp',
+    // title: 'Zenbook A14 quiere destronar a la MacBook Air',
+    // date:'Abril 8, 2025',
+    // url: 'ZenbookA14',
+    // },
     {
     field: 'Tecnología',
     category: ['Periféricos'],
@@ -59,9 +75,25 @@ const ArticleData = [
     },
 
 // APPLE
+    // {
+    // field: 'Apple',
+    // category: ['iPhone', 'Apple Intelligence'],
+    // image: '/assets/blog-assets/iPhone17air/iPhone17air.webp',
+    // title: 'iPhone 17 Air: el modelo más delgado en la historia de Apple',
+    // date:'Abril 17, 2025',
+    // url: 'iPhone17air',
+    // },
+    // {
+    // field: 'Apple',
+    // category: ['iPhone', 'Apple Intelligence'],
+    // image: '/assets/blog-assets/iPhone17pro/iPhone17pro8K.webp',
+    // title: 'Grabar en 8K desde un iPhone: el 17 Pro lo haría posible',
+    // date:'Abril 11, 2025',
+    // url: 'iPhone17Pro8K',
+    // },
     {
     field: 'Apple',
-    category: ['iOS'],
+    category: ['iPhone', 'iOS', 'Apple Intelligence'],
     image: '/assets/blog-assets/iOS184/iOS184.webp',
     title: 'Novedades de iOS 18.4',
     date:'Abril 5, 2025',
