@@ -57,14 +57,14 @@ const ArticleData = [
     // date:'Abril 14, 2025',
     // url: 'NintendoSwitch2',
     // },
-    // {
-    // field: 'Tecnología',
-    // category: ['Laptops'],
-    // image: '/assets/blog-assets/ZenbookA14/ZenbookA14.webp',
-    // title: 'Zenbook A14 quiere destronar a la MacBook Air',
-    // date:'Abril 8, 2025',
-    // url: 'ZenbookA14',
-    // },
+    {
+    field: 'Tecnología',
+    category: ['Laptops'],
+    image: '/assets/blog-assets/ZenbookA14/ZenbookA14.webp',
+    title: 'Zenbook A14 quiere destronar a la MacBook Air',
+    date:'Abril 8, 2025',
+    url: 'ZenbookA14',
+    },
     {
     field: 'Tecnología',
     category: ['Periféricos'],
