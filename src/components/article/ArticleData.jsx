@@ -83,14 +83,14 @@ const ArticleData = [
     // date:'Abril 17, 2025',
     // url: 'iPhone17air',
     // },
-    // {
-    // field: 'Apple',
-    // category: ['iPhone', 'Apple Intelligence'],
-    // image: '/assets/blog-assets/iPhone17pro/iPhone17pro8K.webp',
-    // title: 'Grabar en 8K desde un iPhone: el 17 Pro lo haría posible',
-    // date:'Abril 11, 2025',
-    // url: 'iPhone17Pro8K',
-    // },
+    {
+    field: 'Apple',
+    category: ['iPhone', 'Apple Intelligence'],
+    image: '/assets/blog-assets/iPhone17pro/iPhone17pro8K.webp',
+    title: 'Grabar en 8K desde un iPhone: el 17 Pro lo haría posible',
+    date:'Abril 11, 2025',
+    url: 'iPhone17Pro8K',
+    },
     {
     field: 'Apple',
     category: ['iPhone', 'iOS', 'Apple Intelligence'],
