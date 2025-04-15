@@ -49,14 +49,14 @@ const ArticleData = [
     },
     
 // TECNOLOGIA
-    // {
-    // field: 'Tecnología',
-    // category: ['Consolas'],
-    // image: '/assets/blog-assets/NintendoSwitch2/NintendoSwitch2.webp',
-    // title: 'Nintendo Switch 2 ya es oficial, y viene con todo',
-    // date:'Abril 14, 2025',
-    // url: 'NintendoSwitch2',
-    // },
+    {
+    field: 'Tecnología',
+    category: ['Consolas'],
+    image: '/assets/blog-assets/NintendoSwitch2/NintendoSwitch2.webp',
+    title: 'Nintendo Switch 2 ya es oficial, y viene con todo',
+    date:'Abril 14, 2025',
+    url: 'NintendoSwitch2',
+    },
     {
     field: 'Tecnología',
     category: ['Laptops'],
