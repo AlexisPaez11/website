@@ -75,14 +75,14 @@ const ArticleData = [
     },
 
 // APPLE
-    // {
-    // field: 'Apple',
-    // category: ['iPhone', 'Apple Intelligence'],
-    // image: '/assets/blog-assets/iPhone17air/iPhone17air.webp',
-    // title: 'iPhone 17 Air: el modelo más delgado en la historia de Apple',
-    // date:'Abril 17, 2025',
-    // url: 'iPhone17air',
-    // },
+    {
+    field: 'Apple',
+    category: ['iPhone', 'Apple Intelligence'],
+    image: '/assets/blog-assets/iPhone17air/iPhone17air.webp',
+    title: 'iPhone 17 Air: el modelo más delgado en la historia de Apple',
+    date:'Abril 17, 2025',
+    url: 'iPhone17air',
+    },
     {
     field: 'Apple',
     category: ['iPhone', 'Apple Intelligence'],
