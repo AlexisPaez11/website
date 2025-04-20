@@ -729,6 +729,7 @@ code::selection{
 }
 /* TABLE */
 table {
+    display: auto;
     border-collapse: collapse;
 }
 table tr {
@@ -1263,10 +1264,6 @@ footer {
     }
     .article-container > img, .article-container > .video {
         min-width: 26rem;
-    }
-    table tr {
-        display: flex;
-        flex-direction: column;
     }
     table th.align-left {
         width: 100%;

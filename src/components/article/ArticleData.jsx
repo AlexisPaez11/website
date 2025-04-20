@@ -52,6 +52,14 @@ const ArticleData = [
     {
     field: 'Tecnología',
     category: ['Consolas'],
+    image: '/assets/blog-assets/LaNuevaEraDelGamingPortátil/AsusRogAlly.webp',
+    title: 'La nueva era del gaming portátil: ROG Ally, Steam Deck  y Switch 2',
+    date:'Abril 20, 2025',
+    url: 'LaNuevaEraDelGamingPortátil',
+    },
+    {
+    field: 'Tecnología',
+    category: ['Consolas'],
     image: '/assets/blog-assets/NintendoSwitch2/NintendoSwitch2.webp',
     title: 'Nintendo Switch 2 ya es oficial, y viene con todo',
     date:'Abril 14, 2025',
