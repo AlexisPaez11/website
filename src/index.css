@@ -34,8 +34,27 @@ img::selection {
     --color-component-variant2: #2E3039;
 }
 ::-webkit-scrollbar {
-    display: none;
-  }
+    height: 8px;
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    border-radius: .8rem;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--color-component-variant1);
+    border-radius: 8rem;
+    -webkit-border-radius: 8rem;
+    -moz-border-radius: 8rem;
+    -ms-border-radius: 8rem;
+    -o-border-radius: 8rem;
+}
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -728,13 +747,17 @@ code::selection{
     background-color: var(--color-component);
 }
 /* TABLE */
+.table {
+    overflow-x: auto;
+}
 table {
-    display: auto;
+    width: 100%;
     border-collapse: collapse;
+    overflow-x: scroll;
 }
 table tr {
-    border-top: 1.5px solid var(--color-component-variant1);
-    border-bottom: 1.5px solid var(--color-component-variant1);
+    border-top: 2px solid var(--color-component-variant1);
+    border-bottom: 2px solid var(--color-component-variant1);
 }
 th, td {
     vertical-align: top;
@@ -1125,6 +1148,19 @@ footer {
     }
     .project img, .article img {
         width: 100%;
+    }
+    .colum thead tr th:first-child {
+        display: none;
+    }
+    .colum table thead tr, .colum table tbody tr {
+        border-bottom: 2px solid var(--color-component-variant1);
+    }
+    .colum table tbody tr {
+        border-top: none;
+    }
+    .colum tbody tr {
+        display: flex;
+        flex-direction: column;
     }
     .aboutInfo-container {
         gap: 2rem;
