@@ -1,5 +1,13 @@
 const ArticleData = [
     {
+        field: 'Desarrollo',
+        category: ["Fundamentos"],
+        image: '/assets/blog-assets/LasComputadorasSoloEntienden0y1/LasComputadorasSoloEntienden0y1.webp',
+        title: '¿Por qué las computadoras solo entienden 0 y 1?',
+        date:'Abril 23, 2025',
+        url: 'LasComputadorasSoloEntienden0y1',
+    },
+    {
     field: 'Desarrollo',
     category: ["JavaScript"],
     image: '/assets/blog-assets/JavaScript/MetodosArraysJavaScript.webp',
