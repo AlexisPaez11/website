@@ -11,7 +11,7 @@ const FilterButton = ({ name, handleSetFilter, isActive }) => (
 );
 
 const orderedCategories = {
-  Desarrollo: ['JavaScript', 'HTML', 'Tailwind', 'Herramientas'],
+  Desarrollo: ['Fundamentos', 'JavaScript', 'HTML', 'Tailwind', 'Herramientas'],
   Apple: ['iPhone', 'MacBook', 'iOS', 'Apple Intelligence'],
   Tecnología: ['Laptops', 'Consolas', 'Periféricos']
 };
