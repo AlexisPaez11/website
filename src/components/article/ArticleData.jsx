@@ -1,11 +1,11 @@
 const ArticleData = [
     {
-        field: 'Desarrollo',
-        category: ["Fundamentos"],
-        image: '/assets/blog-assets/LasComputadorasSoloEntienden0y1/LasComputadorasSoloEntienden0y1.webp',
-        title: '¿Por qué las computadoras solo entienden 0 y 1?',
-        date:'Abril 23, 2025',
-        url: 'LasComputadorasSoloEntienden0y1',
+    field: 'Desarrollo',
+    category: ["Fundamentos"],
+    image: '/assets/blog-assets/LasComputadorasSoloEntienden0y1/LasComputadorasSoloEntienden0y1.webp',
+    title: '¿Por qué las computadoras solo entienden 0 y 1?',
+    date:'Abril 23, 2025',
+    url: 'LasComputadorasSoloEntienden0y1',
     },
     {
     field: 'Desarrollo',
@@ -59,6 +59,14 @@ const ArticleData = [
 // TECNOLOGIA
     {
     field: 'Tecnología',
+    category: ['Audio','Periféricos'],
+    image: '/assets/blog-assets/SonyWH1000XM6/SonyWH1000XM6.webp',
+    title: 'WH-1000XM6: Sony redefine el estándar en cancelación de ruido',
+    date:'Mayo 28, 2025',
+    url: 'SonyWH1000XM6',
+    },
+    {
+    field: 'Tecnología',
     category: ['Consolas'],
     image: '/assets/blog-assets/LaNuevaEraDelGamingPortátil/AsusRogAlly.webp',
     title: 'La nueva era del gaming portátil: ROG Ally, Steam Deck  y Switch 2',
@@ -91,6 +99,14 @@ const ArticleData = [
     },
 
 // APPLE
+    {
+    field: 'Apple',
+    category: ['iPhone','MacBook','Watch','Vision Pro','iOS','Apple Intelligence','WWDC'],
+    image: '/assets/blog-assets/WWDC2025NovedadesyRumores/WWDC25.webp',
+    title: 'WWDC 2025: Todas las novedades confirmadas y los rumores más fuertes',
+    date:'Mayo 29, 2025',
+    url: 'WWDC2025NovedadesyRumores',
+    },
     {
     field: 'Apple',
     category: ['iPhone', 'Apple Intelligence'],

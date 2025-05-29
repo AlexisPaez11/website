@@ -11,9 +11,9 @@ const FilterButton = ({ name, handleSetFilter, isActive }) => (
 );
 
 const orderedCategories = {
-  Desarrollo: ['Fundamentos', 'JavaScript', 'HTML', 'Tailwind', 'Herramientas'],
-  Apple: ['iPhone', 'MacBook', 'iOS', 'Apple Intelligence'],
-  Tecnología: ['Laptops', 'Consolas', 'Periféricos']
+  Desarrollo: ['Fundamentos','JavaScript','HTML','Tailwind','Herramientas'],
+  Apple: ['iPhone','MacBook','Watch','Vision Pro','iOS','Apple Intelligence','WWDC'],
+  Tecnología: ['Laptops','Consolas','Audio','Periféricos']
 };
 
 const Blog = () => {
