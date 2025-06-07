@@ -59,6 +59,14 @@ const ArticleData = [
 // TECNOLOGIA
     {
     field: 'Tecnología',
+    category: ['Periféricos'],
+    image: '/assets/blog-assets/AsusRogAzoth/AsusRogAzoth.webp',
+    title: 'ASUS ROG Azoth: ¿el teclado gaming definitivo?',
+    date:'Mayo 28, 2025',
+    url: 'AsusRogAzoth',
+    },
+    {
+    field: 'Tecnología',
     category: ['Audio','Periféricos'],
     image: '/assets/blog-assets/SonyWH1000XM6/SonyWH1000XM6.webp',
     title: 'WH-1000XM6: Sony redefine el estándar en cancelación de ruido',
