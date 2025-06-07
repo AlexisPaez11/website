@@ -62,7 +62,7 @@ const ArticleData = [
     category: ['Periféricos'],
     image: '/assets/blog-assets/AsusRogAzoth/AsusRogAzoth.webp',
     title: 'ASUS ROG Azoth: ¿el teclado gaming definitivo?',
-    date:'Mayo 28, 2025',
+    date:'Junio 7, 2025',
     url: 'AsusRogAzoth',
     },
     {
