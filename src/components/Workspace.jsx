@@ -29,8 +29,10 @@ const Workspace = () => {
       <div className='workspace-container'>
         <h3>Perifericos</h3>
         <ul>
+            <li>Teclado: ASUS ROG Azoth NX Storm</li>
             <li>Teclado: Logitech G PRO</li>
             <li>Mouse: Logitech G903</li>
+            <li>MousePad: Logitech G840 XL Black</li>
             <li>MousePad: Redragon Flick XL</li>
         </ul>
       </div>
@@ -38,8 +40,9 @@ const Workspace = () => {
         <h3>Monitores / TV</h3>
         <ul>
           <li>Samsung Odyssey G5 27" Curvo, QHD, 165Hz, 1ms</li>
-          <li>Samsung T35F 24" Plano, FHD, 75Hz, 5ms</li>
-          <li>Televisor: LG Smart 50" 4K</li>
+          <li>Samsung T35F 24" FHD, 75Hz, 5ms</li>
+          <li>Televisor: LG 77" 4K OLED, 120Hz, 1ms</li>
+          <li>Televisor: LG 50" 4K UHD, 60Hz, 8ms</li>
         </ul>
       </div>
       <div className='workspace-container'>
@@ -75,6 +78,7 @@ const Workspace = () => {
           <li>Joysticks: Dualsense Negro Medianoche / Rojo Cósmico</li>
           <li>Aspiradora: Xiaomi MI Vacuum</li>
           <li>Silla: Corsair T3 Rush</li>
+          <li>Bburago F1 Red Bull Max Verstappen 1/24</li>
         </ul>
       </div>
     </section>
