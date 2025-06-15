@@ -41,8 +41,8 @@ const Workspace = () => {
         <ul>
           <li>Samsung Odyssey G5 27" Curvo, QHD, 165Hz, 1ms</li>
           <li>Samsung T35F 24" FHD, 75Hz, 5ms</li>
-          <li>Televisor: LG 77" 4K OLED, 120Hz, 1ms</li>
-          <li>Televisor: LG 50" 4K UHD, 60Hz, 8ms</li>
+          <li>Smart TV LG 77" C3 4K OLED evo AI, 120Hz, 1ms</li>
+          <li>Smart TV LG 50" 4K UHD ThinQ AI, 60Hz, 8ms</li>
         </ul>
       </div>
       <div className='workspace-container'>
