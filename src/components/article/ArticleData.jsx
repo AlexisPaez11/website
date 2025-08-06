@@ -59,6 +59,14 @@ const ArticleData = [
 // TECNOLOGIA
     {
     field: 'Tecnología',
+    category: ['Google'],
+    image: '/assets/blog-assets/GooglePixel10/Pixel10MadebyGoogle.webp',
+    title: 'Pixel 10 y Gemini: el dúo con el que Google planea dominar el 2025',
+    date:'Agosto 6, 2025',
+    url: 'Pixel10MadebyGoogle',
+    },
+    {
+    field: 'Tecnología',
     category: ['Periféricos'],
     image: '/assets/blog-assets/AsusRogAzoth/AsusRogAzoth.webp',
     title: 'ASUS ROG Azoth: ¿el teclado gaming definitivo?',
