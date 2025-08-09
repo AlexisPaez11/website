@@ -60,6 +60,14 @@ const ArticleData = [
     {
     field: 'Tecnología',
     category: ['Google'],
+    image: '/assets/blog-assets/PixelMadebyGoogle/PixelMadebyGoogle.webp',
+    title: 'Pixel Fold 2, Watch 4 y Buds 2a: el próximo ecosistema de Google',
+    date:'Agosto 9, 2025',
+    url: 'PixelFold2-Watch4-Buds2a',
+    },
+    {
+    field: 'Tecnología',
+    category: ['Google'],
     image: '/assets/blog-assets/GooglePixel10/Pixel10MadebyGoogle.webp',
     title: 'Pixel 10 y Gemini: el dúo con el que Google planea dominar el 2025',
     date:'Agosto 6, 2025',
