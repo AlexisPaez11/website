@@ -125,6 +125,14 @@ const ArticleData = [
 // APPLE
     {
     field: 'Apple',
+    category: 'iPhone',
+    image: '/assets/blog-assets/iPhone17Colors/iPhone17.webp',
+    title: 'iPhone 17: cambios de diseño, colores y mejoras de hardware',
+    date:'Agosto 16, 2025',
+    url: 'iPhone17DiseñoColoresHardware',
+    },
+    {
+    field: 'Apple',
     category: ['iPhone','MacBook','Watch','Vision Pro','iOS','Apple Intelligence','WWDC'],
     image: '/assets/blog-assets/WWDC2025NovedadesyRumores/WWDC25.webp',
     title: 'WWDC 2025: Todas las novedades confirmadas y los rumores más fuertes',
