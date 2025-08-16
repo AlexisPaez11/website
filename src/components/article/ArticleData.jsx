@@ -125,7 +125,7 @@ const ArticleData = [
 // APPLE
     {
     field: 'Apple',
-    category: 'iPhone',
+    category: ['iPhone'],
     image: '/assets/blog-assets/iPhone17Colors/iPhone17.webp',
     title: 'iPhone 17: cambios de diseño, colores y mejoras de hardware',
     date:'Agosto 16, 2025',
