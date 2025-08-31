@@ -63,7 +63,7 @@ const ArticleData = [
     image: '/assets/blog-assets/PixelMadebyGoogle/PixelWatch4MadebyGoogle.webp',
     title: 'Google Pixel Watch 4: potencia, salud y Gemini en tu muñeca',
     date:'Agosto 31, 2025',
-    url: 'GooglePixelWatch4',
+    url: 'PixelWatch4MadebyGoogle',
     },
     {
     field: 'Tecnología',
