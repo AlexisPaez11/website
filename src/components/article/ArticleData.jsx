@@ -60,6 +60,14 @@ const ArticleData = [
     {
     field: 'Tecnología',
     category: ['Google'],
+    image: '/assets/blog-assets/PixelMadebyGoogle/PixelWatch4MadebyGoogle.webp',
+    title: 'Google Pixel Watch 4: potencia, salud y Gemini en tu muñeca',
+    date:'Agosto 31, 2025',
+    url: 'GooglePixelWatch4',
+    },
+    {
+    field: 'Tecnología',
+    category: ['Google'],
     image: '/assets/blog-assets/PixelMadebyGoogle/PixelFold2MadebyGoogle.webp',
     title: 'Pixel Fold 2, Watch 4 y Buds 2a: el próximo ecosistema de Google',
     date:'Agosto 9, 2025',
