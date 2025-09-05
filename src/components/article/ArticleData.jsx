@@ -134,7 +134,7 @@ const ArticleData = [
     {
     field: 'Apple',
     category: ['iPhone','Watch','AirPods','iOS', 'iPadOS', 'macOS'],
-    image: '/assets/blog-assets/AweDropping/AppleAweDropping.webp',
+    image: '/assets/blog-assets/AweDropping2025/AppleAweDropping.webp',
     title: 'Apple “Awe Dropping” 2025: Qué traerá el Evento del 9 de Septiembre',
     date:'Septiembre 5, 2025',
     url: 'AppleAweDropping2025',
