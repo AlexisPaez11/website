@@ -49,6 +49,7 @@ const Workspace = () => {
         <h3>Sonido</h3>
         <ul>
           <li>Auriculares: Logitech G435</li>
+          <li>Auriculares: AirPods Pro 2</li>
           <li>Parlantes: Logitech G560</li>
           <li>Parlantes: Razer Nommo Chroma RGB</li>
           <li>Parlantes: Xiaomi MI Speaker 2</li>
@@ -75,6 +76,7 @@ const Workspace = () => {
         <h3>Otros</h3>
         <ul>
           <li>IPhone 15 Pro Max 256GB</li>
+          <li>Apple Watch Series 10 46mm</li>
           <li>Joysticks: Dualsense Negro Medianoche / Rojo Cósmico</li>
           <li>Aspiradora: Xiaomi MI Vacuum</li>
           <li>Silla: Corsair T3 Rush</li>
