@@ -12,7 +12,7 @@ const FilterButton = ({ name, handleSetFilter, isActive }) => (
 
 const orderedCategories = {
   Desarrollo: ['Fundamentos','JavaScript','HTML','Tailwind','Herramientas'],
-  Apple: ['iPhone','MacBook','Watch','Vision Pro','iOS','Apple Intelligence','WWDC'],
+  Apple: ['iPhone','MacBook','Watch','Vision Pro','iOS','iPadOS','macOS','Apple Intelligence','WWDC'],
   Tecnología: ['Laptops','Consolas','Audio','Periféricos','Google']
 };
 
