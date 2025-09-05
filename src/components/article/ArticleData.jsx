@@ -133,6 +133,14 @@ const ArticleData = [
 // APPLE
     {
     field: 'Apple',
+    category: ['iPhone','Watch','AirPods','iOS', 'iPadOS', 'macOS'],
+    image: '/assets/blog-assets/AweDropping/AppleAweDropping.webp',
+    title: 'Apple “Awe Dropping” 2025: Qué traerá el Evento del 9 de Septiembre',
+    date:'Septiembre 5, 2025',
+    url: 'AppleAweDropping2025',
+    },
+    {
+    field: 'Apple',
     category: ['iPhone'],
     image: '/assets/blog-assets/iPhone17Colors/iPhone17.webp',
     title: 'iPhone 17: cambios de diseño, colores y mejoras de hardware',
