@@ -133,6 +133,14 @@ const ArticleData = [
 // APPLE
     {
     field: 'Apple',
+    category: ['Watch'],
+    image: '/assets/blog-assets/AppleAweDropping2025/AppleWatchUltra3.webp',
+    title: 'Apple Watch Ultra 3: la evolución del reloj más extremo de Apple',
+    date:'Septiembre 5, 2025',
+    url: 'AppleAweDroppingAppleWatchUltra3',
+    },
+    {
+    field: 'Apple',
     category: ['iPhone','Watch','AirPods','iOS', 'iPadOS', 'macOS'],
     image: '/assets/blog-assets/AppleAweDropping2025/AppleAweDropping.webp',
     title: 'Apple “Awe Dropping” 2025: Qué traerá el Evento del 9 de Septiembre',
