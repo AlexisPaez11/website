@@ -134,6 +134,14 @@ const ArticleData = [
     {
     field: 'Apple',
     category: ['Watch'],
+    image: '/assets/blog-assets/AppleAweDropping2025/AppleWatchSeries11.webp',
+    title: 'Apple Watch Series 11: Qué Vendrá en el Evento del 9 de Septiembre',
+    date:'Septiembre 7, 2025',
+    url: 'AppleAweDroppingAppleWatchSeries11',
+    },
+    {
+    field: 'Apple',
+    category: ['Watch'],
     image: '/assets/blog-assets/AppleAweDropping2025/AppleWatchUltra3.webp',
     title: 'Apple Watch Ultra 3: la evolución del reloj más extremo de Apple',
     date:'Septiembre 5, 2025',
