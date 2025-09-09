@@ -133,6 +133,14 @@ const ArticleData = [
 // APPLE
     {
     field: 'Apple',
+    category: ['AirPods'],
+    image: '/assets/blog-assets/AppleAweDropping2025/AppleAirPodsPro3.webp',
+    title: 'AirPods Pro 3: el gran regreso de los auriculares premium de Apple en 2025',
+    date:'Septiembre 8, 2025',
+    url: 'AppleAweDroppingAppleAirPodsPro3',
+    },
+    {
+    field: 'Apple',
     category: ['Watch'],
     image: '/assets/blog-assets/AppleAweDropping2025/AppleWatchSE3.webp',
     title: 'Apple Watch SE 3: todo lo que sabemos del reloj más accesible de Apple',
