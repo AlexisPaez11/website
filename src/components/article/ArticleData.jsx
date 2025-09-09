@@ -134,6 +134,14 @@ const ArticleData = [
     {
     field: 'Apple',
     category: ['Watch'],
+    image: '/assets/blog-assets/AppleAweDropping2025/AppleWatchSE3.webp',
+    title: 'Apple Watch SE 3: todo lo que sabemos del reloj más accesible de Apple',
+    date:'Septiembre 8, 2025',
+    url: 'AppleAweDroppingAppleWatchSE3',
+    },
+    {
+    field: 'Apple',
+    category: ['Watch'],
     image: '/assets/blog-assets/AppleAweDropping2025/AppleWatchSeries11.webp',
     title: 'Apple Watch Series 11: Qué Vendrá en el Evento del 9 de Septiembre',
     date:'Septiembre 7, 2025',
