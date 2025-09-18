@@ -137,7 +137,7 @@ const ArticleData = [
     image: '/assets/blog-assets/iPhone17/iPhone17.webp',
     title: 'iPhone 17: la evolución que todos esperaban',
     date:'Septiembre 18, 2025',
-    url: 'AweDroppingAppleiPhone17',
+    url: 'AweDroppingiPhone17',
     },
     {
     field: 'Apple',
