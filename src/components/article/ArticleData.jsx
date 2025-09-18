@@ -133,6 +133,14 @@ const ArticleData = [
 // APPLE
     {
     field: 'Apple',
+    category: ['iPhone'],
+    image: '/assets/blog-assets/iPhone17/iPhone17.webp',
+    title: 'iPhone 17: la evolución que todos esperaban',
+    date:'Septiembre 18, 2025',
+    url: 'AweDroppingAppleiPhone17',
+    },
+    {
+    field: 'Apple',
     category: ['AirPods'],
     image: '/assets/blog-assets/AppleAweDropping2025/AppleAirPodsPro3.webp',
     title: 'AirPods Pro 3: el gran regreso de los auriculares premium de Apple en 2025',
