@@ -134,6 +134,14 @@ const ArticleData = [
     {
     field: 'Apple',
     category: ['iPhone'],
+    image: '/assets/blog-assets/iPhoneAir/iPhoneAir.webp',
+    title: 'iPhone Air: la revolución de la ligereza',
+    date:'Septiembre 21, 2025',
+    url: 'AweDroppingiPhoneAir',
+    },
+    {
+    field: 'Apple',
+    category: ['iPhone'],
     image: '/assets/blog-assets/iPhone17/iPhone17.webp',
     title: 'iPhone 17: la evolución que todos esperaban',
     date:'Septiembre 18, 2025',
