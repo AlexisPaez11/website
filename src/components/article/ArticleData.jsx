@@ -134,7 +134,7 @@ const ArticleData = [
     {
     field: 'Apple',
     category: ['iPhone'],
-    image: '/assets/blog-assets/iPhone17Pro/iPhone17pro.webp',
+    image: '/assets/blog-assets/iPhone17pro/iPhone17Pro.webp',
     title: 'iPhone 17 Pro y Pro Max: Poder sin limites',
     date:'Septiembre 26, 2025',
     url: 'AweDroppingiPhone17Pro',
