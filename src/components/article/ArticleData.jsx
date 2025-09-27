@@ -217,7 +217,7 @@ const ArticleData = [
     image: '/assets/blog-assets/iPhone17Air/iPhone17Air.webp',
     title: 'iPhone 17 Air: el modelo más delgado en la historia de Apple',
     date:'Abril 17, 2025',
-    url: 'iPhone17air',
+    url: 'iPhone17Air',
     },
     {
     field: 'Apple',
