@@ -132,9 +132,9 @@ const ArticleData = [
 
 // APPLE
     {
-    field: 'Apple',
+    field: ['Apple' 'Apple Intelligence'],
     category: ['iPhone'],
-    image: '/assets/blog-assets/iPhone17pro/iPhone17Pro.webp',
+    image: '/assets/blog-assets/iPhone17Pro/iPhone17Pro.webp',
     title: 'iPhone 17 Pro y Pro Max: Poder sin limites',
     date:'Septiembre 26, 2025',
     url: 'AweDroppingiPhone17Pro',
@@ -222,7 +222,7 @@ const ArticleData = [
     {
     field: 'Apple',
     category: ['iPhone', 'Apple Intelligence'],
-    image: '/assets/blog-assets/iPhone17pro/iPhone17pro8K.webp',
+    image: '/assets/blog-assets/iPhone17Pro/iPhone17pro8K.webp',
     title: 'Grabar en 8K desde un iPhone: el 17 Pro lo haría posible',
     date:'Abril 11, 2025',
     url: 'iPhone17Pro8K',
