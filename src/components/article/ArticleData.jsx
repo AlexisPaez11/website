@@ -132,7 +132,7 @@ const ArticleData = [
 
 // APPLE
     {
-    field: ['Apple' 'Apple Intelligence'],
+    field: ['Apple', 'Apple Intelligence'],
     category: ['iPhone'],
     image: '/assets/blog-assets/iPhone17Pro/iPhone17Pro.webp',
     title: 'iPhone 17 Pro y Pro Max: Poder sin limites',
