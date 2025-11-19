@@ -28,7 +28,7 @@ img::selection {
     --transition: all .5s ease;
     
     --color-bg: #0d1117;
-    --color-primary: #00cbff;
+    --color-primary: red;
     --color-component: #212933;
     --color-component-variant1: #1b212a;
     --color-component-variant2: #2E3039;
