@@ -28,7 +28,7 @@ img::selection {
     --transition: all .5s ease;
     
     --color-bg: #0d1117;
-    --color-primary: red;
+    --color-primary: #00cbff;
     --color-component: #212933;
     --color-component-variant1: #1b212a;
     --color-component-variant2: #2E3039;
@@ -87,13 +87,13 @@ h4 {
     font-weight: 600;
 }
 p {
-    font-size: 2.1rem;
+    font-size: 2rem;
     line-height: 2.8rem;
     font-weight: 400;
     color: var(--color-text-variant);
 }
 li {
-    font-size: 2.1rem;
+    font-size: 2rem;
     line-height: 2.6rem;
     font-weight: 400;
 }
@@ -110,7 +110,7 @@ hr {
 .article-container hr {
     width: 100%;
 }
-.article-container .espacio {
+.article-container .ESP {
     height: 4rem;
 }
 section {
@@ -130,13 +130,13 @@ section {
     height: max-content;
 }
 .btn {
-    font-size: 2.1rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--color-text-variant);
     background-color: var(--color-component);
     text-align: center;
     display: inline-block;
-    padding: 1.4rem 2rem;
+    padding: 1.6rem 2rem 1.4rem 2rem;
     border-radius: .8rem;
     -webkit-border-radius: .8rem;
     -moz-border-radius: .8rem;
@@ -375,12 +375,12 @@ nav .nav-menu-logo a.active:focus:after {
     -o-transition: var(--transition);
 }
 .search-container .search {
-    font-size: 2.1rem;
+    font-size: 2rem;
     font-weight: 500;
     color: var(--color-text-variant);
     background-color: var(--color-component);
     width: 100%;
-    padding: 1.6rem 2rem;
+    padding: 1.6rem 1.4rem 1.4rem 1.4rem;
     border: 0;
     border-radius: .8rem;
     -webkit-border-radius: .8rem;
@@ -575,13 +575,13 @@ time {
     line-height: 3.4rem;
 }
 .article-container h3 span {
-    font-size: 2.1rem;
+    font-size: 2rem;
     line-height: 2.8rem;
 }
 .article-container p,
 .article-container li,
 table th .align-left p {
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 .article-container h1,
 .article-container h2,
@@ -640,7 +640,7 @@ table th .align-left p {
 }
 .article-container .comment {
     opacity: 30%;
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 .article-container ul, .article-container ol {
     padding-left: 1.4rem;
@@ -715,13 +715,12 @@ pre {
     -o-transform: translate(-2rem, 0rem);
 }
 pre, code {
-    font-size: 2.1rem;
+    font-size: 2rem;
     line-height: 2.6rem;
     color: var(--color-text-variant);
     background-color: var(--color-component-variant1);
     display: block;
     overflow: auto;
-    padding: 1rem 1rem 1rem 1rem;
     tab-size: 2;
     text-align: left;
     white-space: pre;
@@ -738,6 +737,9 @@ pre, code {
     -moz-transition: var(--transition);
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
+}
+code {
+    padding: 1.6rem 1.4rem 1.4rem 1.4rem;
 }
 pre .lenguaje svg path {
     font-size: 3.2rem;
@@ -850,7 +852,7 @@ table th.align-left {
     font-size: 4.8rem;
 }
 .biography h2 {
-    font-size: 2.1rem;
+    font-size: 2rem;
     color: var(--color-text-variant);
 }
 /* SKILLS */
@@ -875,10 +877,10 @@ table th.align-left {
     font-weight: 600;
 }
 .skills span {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: var(--color-text-variant);
     background-color: var(--color-component);
-    padding: 1.6rem 2rem;
+    padding: 1.6rem 2rem 1.4rem 2rem;
     margin-right: .8rem;
     margin-bottom: .8rem;
     border-radius: .8rem;

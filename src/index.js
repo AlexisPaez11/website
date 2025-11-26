@@ -4,6 +4,7 @@ import './index.css'
 import App from './App'
 import { BrowserRouter } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
+import { HelmetProvider } from 'react-helmet-async'; // 👈 Importar
 
 const history = createBrowserHistory({
     v7_startTransition: true,  // Habilitar el flag de transición
@@ -18,7 +19,10 @@ const rootElement = document.getElementById('root')
 const root = ReactDOMClient.createRoot(rootElement)
 
 root.render(
+    <HelmetProvider>
+
     <BrowserRouter history={history}> 
         <App/>
     </BrowserRouter>, 
+    </HelmetProvider>
 );
